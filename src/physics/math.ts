@@ -1,0 +1,11 @@
+export type V = [number, number, number];
+export const add = (a: V, b: V): V => [a[0]+b[0], a[1]+b[1], a[2]+b[2]];
+export const sub = (a: V, b: V): V => [a[0]-b[0], a[1]-b[1], a[2]-b[2]];
+export const mul = (a: V, s: number): V => [a[0]*s, a[1]*s, a[2]*s];
+export const dot = (a: V, b: V) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+export const cross = (a: V, b: V): V => [a[1]*b[2]-a[2]*b[1], a[2]*b[0]-a[0]*b[2], a[0]*b[1]-a[1]*b[0]];
+export const len = (a: V) => Math.hypot(...a);
+export const speed = (a: V) => Math.hypot(a[0],a[1]);
+export const unit = (a: V): V => len(a)>1e-10 ? mul(a,1/len(a)) : [0,0,0];
+export const clamp = (x: number, a: number, b: number) => Math.max(a,Math.min(b,x));
+export const clip = (v: V,n: V): V => sub(v,mul(n,Math.min(0,dot(v,n))));

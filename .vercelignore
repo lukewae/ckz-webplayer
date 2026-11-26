@@ -1,0 +1,9 @@
+src/
+shared/
+tests/
+public/
+node_modules/
+docs/
+demo-release-report.json
+README.md
+package-lock.json

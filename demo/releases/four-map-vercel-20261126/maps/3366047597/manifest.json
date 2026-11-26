@@ -1,0 +1,99 @@
+{
+  "name": "kz_faded",
+  "workshopId": "3366047597",
+  "source": "native-physics-triangles",
+  "converter": "20.0.6980+a06886f7d06049052d32a7381ec05523064a2ca0",
+  "mapMd5": "1f711a3776028ad64eda49d42a7bb536",
+  "mapSha256": "28a6fd0845362f16087e2d7d314def440b2258d97a1bba153a3ab64ce9233030",
+  "renderSha256": "e75ad117168a8ec99df1c48db5b411c3d16682f20667e404409ffdfc36e211eb",
+  "collisionSha256": "013d064d27e79b740ac08efe72e77d3722634625576a17a0cf918c7128d714a4",
+  "spawn": [
+    524.052979,
+    -275.245239,
+    512.100525
+  ],
+  "yaw": 179.999969,
+  "triangles": 10710,
+  "ladderTriangles": 0,
+  "groups": [
+    {
+      "name": "physics_ConditionallySolid_foliage",
+      "tags": [],
+      "surface": "foliage",
+      "triangles": 240
+    },
+    {
+      "name": "physics_group_brick",
+      "tags": [],
+      "surface": "brick",
+      "triangles": 7819
+    },
+    {
+      "name": "physics_water_water",
+      "tags": [
+        "water"
+      ],
+      "surface": "water",
+      "triangles": 534
+    },
+    {
+      "name": "physics_playerclip",
+      "tags": [
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 176
+    },
+    {
+      "name": "physics_sky",
+      "tags": [
+        "sky"
+      ],
+      "surface": "default",
+      "triangles": 236
+    },
+    {
+      "name": "physics_passbullets",
+      "tags": [
+        "passbullets"
+      ],
+      "surface": "default",
+      "triangles": 7
+    },
+    {
+      "name": "prop_dynamic",
+      "tags": [],
+      "surface": "wood_tree",
+      "triangles": 566
+    },
+    {
+      "name": "prop_dynamic",
+      "tags": [],
+      "surface": "wood_tree",
+      "triangles": 566
+    },
+    {
+      "name": "prop_dynamic",
+      "tags": [],
+      "surface": "wood_tree",
+      "triangles": 566
+    }
+  ],
+  "limitations": [
+    "Native triangle surfaces; Rubikon convex identity and edge/contact semantics are not preserved.",
+    "Playerclip and ladder tags retained; general entity filtering/dynamics incomplete.",
+    "Only the selected map and enabled func_brush entities have been audited.",
+    "Separate 3D skybox, dynamic physics props, moving brushes and general entity I/O are not simulated.",
+    "Anti-bhop restrictions, checkpoint/pause modifiers, stage timing, sound/fade effects and general entity I/O are not implemented."
+  ],
+  "transportImplementation": "context-v2",
+  "workshopPackageMd5": "6c1691db0b208913d12892b05f4febb7",
+  "transports": 11,
+  "timerZones": 2,
+  "excludedMarkerTriangles": 0,
+  "renderAsset": "lightweight/map.glb",
+  "texturedRenderSha256": "2bd1f487d028b50b7fe1dfc0a739a5f5f77b541c37350b69a32a39df831bb14e",
+  "nativeFoliageVertexData": true,
+  "nativeWaterPreview": true,
+  "textureReductionReport": "texture-reduction-report.json"
+}

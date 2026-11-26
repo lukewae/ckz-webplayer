@@ -1,0 +1,94 @@
+{
+  "name": "kz_phamous",
+  "workshopId": "3104579274",
+  "source": "native-physics-triangles",
+  "converter": "20.0.6980+a06886f7d06049052d32a7381ec05523064a2ca0",
+  "mapMd5": "133636c96ad977a533fbf17a5de5e76d",
+  "mapSha256": "c27a536fb526cccf315d01b018d68ed6403bd085855955b4a5d2d57ad1ac560c",
+  "renderSha256": "b0d93d7c133fa1ec93221aa618ee60e87df2c9e9c8f1bb7c8c9c295f88718765",
+  "collisionSha256": "46b1f4d42c84b363ff3c8a94dfb4786379be980e6b118b89bd05bd0150b16cab",
+  "spawn": [
+    -2248,
+    408,
+    -112
+  ],
+  "yaw": 0,
+  "triangles": 6305,
+  "ladderTriangles": 64,
+  "groups": [
+    {
+      "name": "physics_group",
+      "tags": [],
+      "surface": "default",
+      "triangles": 5988
+    },
+    {
+      "name": "physics_window_glass",
+      "tags": [
+        "window"
+      ],
+      "surface": "glass",
+      "triangles": 30
+    },
+    {
+      "name": "physics_ladder_npcclip_playerclip_ladder",
+      "tags": [
+        "ladder",
+        "npcclip",
+        "playerclip"
+      ],
+      "surface": "ladder",
+      "triangles": 64
+    },
+    {
+      "name": "physics_passbullets_window_metal",
+      "tags": [
+        "passbullets",
+        "window"
+      ],
+      "surface": "metal",
+      "triangles": 4
+    },
+    {
+      "name": "physics_playerclip",
+      "tags": [
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 8
+    },
+    {
+      "name": "physics_sky",
+      "tags": [
+        "sky"
+      ],
+      "surface": "default",
+      "triangles": 199
+    },
+    {
+      "name": "physics_npcclip_playerclip",
+      "tags": [
+        "npcclip",
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 12
+    }
+  ],
+  "limitations": [
+    "Native triangle surfaces; Rubikon convex identity and edge/contact semantics are not preserved.",
+    "Playerclip and ladder tags retained; general entity filtering/dynamics incomplete.",
+    "Only the selected map and enabled func_brush entities have been audited.",
+    "Separate 3D skybox, dynamic physics props, moving brushes and general entity I/O are not simulated.",
+    "Anti-bhop restrictions, checkpoint/pause modifiers, stage timing, sound/fade effects and general entity I/O are not implemented."
+  ],
+  "transportImplementation": "context-v2",
+  "workshopPackageMd5": "3ad7226aa840362921d558d3e118dbd4",
+  "transports": 1,
+  "timerZones": 2,
+  "excludedMarkerTriangles": 0,
+  "renderAsset": "lightweight/map.glb",
+  "texturedRenderSha256": "3a3c94d6c96fa24780b8a3d1a99c35e36451a65fa48cf609d03ba73c7e0a5b64",
+  "nativeFoliageVertexData": true,
+  "textureReductionReport": "texture-reduction-report.json"
+}

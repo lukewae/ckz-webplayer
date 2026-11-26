@@ -1,0 +1,102 @@
+{
+  "name": "kz_kiwiexultation",
+  "workshopId": "3551310998",
+  "source": "native-physics-triangles",
+  "converter": "20.0.6980+a06886f7d06049052d32a7381ec05523064a2ca0",
+  "mapMd5": "211b56fd7eb4f8cb341f64c0529c0775",
+  "mapSha256": "47ead436d965cd3b9ac5a15f7d198d4f3b0f5b7e07592fb4020c76cf641f4a85",
+  "renderSha256": "e122394814335bf59e0636020f714ba9fe22c4e154be09fd1d3456a195564852",
+  "collisionSha256": "c608c09a977af2681fcfec589e5c3746982c9cd1bd0e0664cc97288dae3756cd",
+  "spawn": [
+    1838.969971,
+    1704.77002,
+    2049
+  ],
+  "yaw": 0,
+  "triangles": 21764,
+  "ladderTriangles": 337,
+  "groups": [
+    {
+      "name": "physics_group",
+      "tags": [],
+      "surface": "default",
+      "triangles": 3472
+    },
+    {
+      "name": "physics_group_plastic",
+      "tags": [],
+      "surface": "plastic",
+      "triangles": 20
+    },
+    {
+      "name": "physics_group_metal_box",
+      "tags": [],
+      "surface": "metal_box",
+      "triangles": 650
+    },
+    {
+      "name": "physics_group_wood",
+      "tags": [],
+      "surface": "wood",
+      "triangles": 16820
+    },
+    {
+      "name": "physics_ladder_npcclip_playerclip_ladder",
+      "tags": [
+        "ladder",
+        "npcclip",
+        "playerclip"
+      ],
+      "surface": "ladder",
+      "triangles": 337
+    },
+    {
+      "name": "physics_playerclip",
+      "tags": [
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 346
+    },
+    {
+      "name": "physics_window_glass",
+      "tags": [
+        "window"
+      ],
+      "surface": "glass",
+      "triangles": 52
+    },
+    {
+      "name": "physics_npcclip_playerclip",
+      "tags": [
+        "npcclip",
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 67
+    }
+  ],
+  "limitations": [
+    "Native triangle surfaces; Rubikon convex identity and edge/contact semantics are not preserved.",
+    "Playerclip and ladder tags retained; general entity filtering/dynamics incomplete.",
+    "Only the selected map and enabled func_brush entities have been audited.",
+    "Separate 3D skybox, dynamic physics props, moving brushes and general entity I/O are not simulated.",
+    "Checkpoint/pause modifiers, stage timing, sound/fade effects and general entity I/O are not implemented."
+  ],
+  "transportImplementation": "context-v2",
+  "workshopPackageMd5": "0bff4f40e5ec6e912d7be324b7d3a457",
+  "transports": 118,
+  "timerZones": 2,
+  "excludedMarkerTriangles": 0,
+  "renderAsset": "textured/map.glb",
+  "texturedExportSha256": "65bfea9f32955761e76d41f5aa62463dfb361b4b9b12f6a15bbc6b1f3e8c8ac8",
+  "texturedRenderSha256": "35f21268c6986ae200dfb7320cb1122462cd74616a384df0515024114a09b0a1",
+  "overlayOffsetCorrection": {
+    "exporter": "20.0.6980",
+    "removedOffsetMeters": 0.3937007784843445,
+    "removedOffsetSourceUnits": 15.500030648989942,
+    "positionAccessors": 1,
+    "vertices": 6
+  },
+  "nativeFoliageVertexData": true
+}

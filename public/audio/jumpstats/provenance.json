@@ -1,0 +1,32 @@
+{
+  "source": "https://github.com/KZGlobalTeam/gokz",
+  "commit": "c56aa84f0581167bc5a2998e9f631382f67141be",
+  "path": "sound/gokz",
+  "files": [
+    {
+      "file": "godlike.mp3",
+      "bytes": 16773,
+      "sha256": "206b21d05207b8aec1516e0aafcf06e78ddaca479e5c8413e04875a2a241a14b"
+    },
+    {
+      "file": "impressive.mp3",
+      "bytes": 25283,
+      "sha256": "5c822c6be1262d26a872db0897828a44719889b4367693d33255712f70dcf717"
+    },
+    {
+      "file": "ownage.mp3",
+      "bytes": 24421,
+      "sha256": "ed9702c003d76cc7befa268a4b4759525d2c33eec35bec41b5648098e0e98dc3"
+    },
+    {
+      "file": "perfect.mp3",
+      "bytes": 19893,
+      "sha256": "e91d693f798cb64006881d087dfc3761f0ba78b4848ad6ac4f83277afe1d6055"
+    },
+    {
+      "file": "wrecker.mp3",
+      "bytes": 31858,
+      "sha256": "2036f26a0983639b9ef623574ddc28c75580de7a30f2c7c1fa6bb31d4017e06c"
+    }
+  ]
+}

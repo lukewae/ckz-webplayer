@@ -1,0 +1,89 @@
+{
+  "name": "kz_slide_dydanhomon2",
+  "workshopId": "3801640043",
+  "source": "native-physics-triangles",
+  "converter": "20.0.6980+a06886f7d06049052d32a7381ec05523064a2ca0",
+  "mapMd5": "f11c5ebc540cb618a5e9a836a416a3ec",
+  "mapSha256": "4059e9b458462ee5eed7ac99999394e11c8ed11df4b98c440db676cad3ae216a",
+  "renderSha256": "ddcd2d3a447e7fa6626971097fe04ba47da5da6c2bbf5f224efb06b822814256",
+  "collisionSha256": "38e84675fb9c491a1d22bccdca4c79579a877b694a6171143c400cd47b11fdeb",
+  "spawn": [
+    -120.579376,
+    3043.755615,
+    2048.100586
+  ],
+  "yaw": 0,
+  "triangles": 4246,
+  "ladderTriangles": 48,
+  "groups": [
+    {
+      "name": "physics_group_concrete",
+      "tags": [],
+      "surface": "concrete",
+      "triangles": 64
+    },
+    {
+      "name": "physics_group",
+      "tags": [],
+      "surface": "default",
+      "triangles": 4050
+    },
+    {
+      "name": "physics_npcclip_playerclip",
+      "tags": [
+        "npcclip",
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 48
+    },
+    {
+      "name": "physics_ladder_passbullets_wood_ladder",
+      "tags": [
+        "ladder",
+        "passbullets"
+      ],
+      "surface": "wood_ladder",
+      "triangles": 48
+    },
+    {
+      "name": "physics_playerclip",
+      "tags": [
+        "playerclip"
+      ],
+      "surface": "default",
+      "triangles": 12
+    },
+    {
+      "name": "func_brush",
+      "tags": [],
+      "surface": "concrete",
+      "triangles": 12
+    },
+    {
+      "name": "func_brush",
+      "tags": [],
+      "surface": "concrete",
+      "triangles": 12
+    }
+  ],
+  "limitations": [
+    "Native triangle surfaces; Rubikon convex identity and edge/contact semantics are not preserved.",
+    "Playerclip and ladder tags retained; general entity filtering/dynamics incomplete.",
+    "Only the selected map and enabled func_brush entities have been audited."
+  ],
+  "workshopPackageMd5": "5fa66917c3b420293667f75b81174812",
+  "transports": 7,
+  "timerZones": 2,
+  "excludedMarkerTriangles": 4,
+  "renderAsset": "lightweight/map.glb",
+  "texturedRenderSha256": "8f7d3e138f9aa595c61bd2bc31c917627bd111a77b77e65fadf203f87f2d0bf2",
+  "keySound": {
+    "file": "key-collect.wav",
+    "triggerId": "195",
+    "event": "kz_slide_dydanhomon2.key_collect",
+    "delay": 0.01,
+    "sha256": "6319a9807adef2b0251eb849783baa4d114d6fb94e43317bf618efda247e61ba"
+  },
+  "textureReductionReport": "texture-reduction-report.json"
+}

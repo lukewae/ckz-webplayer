@@ -1,0 +1,180 @@
+{
+  "mappingApiVersion": 2,
+  "courses": [
+    {
+      "key": "maincourse",
+      "name": "Main",
+      "number": 1
+    }
+  ],
+  "zones": [
+    {
+      "id": "6272",
+      "kind": "end",
+      "course": "maincourse",
+      "hulls": [
+        [
+          {
+            "normal": [
+              0,
+              1,
+              0
+            ],
+            "dist": -2468
+          },
+          {
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "dist": -1792
+          },
+          {
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "dist": 2488
+          },
+          {
+            "normal": [
+              1,
+              0,
+              0
+            ],
+            "dist": 240
+          },
+          {
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "dist": 1840
+          },
+          {
+            "normal": [
+              -1,
+              0,
+              0
+            ],
+            "dist": -48.00001525878906
+          }
+        ]
+      ]
+    },
+    {
+      "id": "27912",
+      "kind": "start",
+      "course": "maincourse",
+      "hulls": [
+        [
+          {
+            "normal": [
+              0,
+              1,
+              0
+            ],
+            "dist": 3104
+          },
+          {
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "dist": -2160
+          },
+          {
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "dist": -2880
+          },
+          {
+            "normal": [
+              1,
+              0,
+              0
+            ],
+            "dist": 268
+          },
+          {
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "dist": 2200
+          },
+          {
+            "normal": [
+              -1,
+              0,
+              0
+            ],
+            "dist": -256
+          }
+        ]
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "course": "maincourse",
+      "position": [
+        72,
+        2996,
+        2116
+      ],
+      "yaw": 0,
+      "pitch": 0
+    }
+  ],
+  "markers": [
+    {
+      "mesh": "n0_lr0_c0_s_cb_nomerge2_gradient_start.meshset_0",
+      "kind": "start",
+      "min": [
+        256.00020682356774,
+        2879.9995436508657,
+        2159.9998079230654
+      ],
+      "max": [
+        256.0002068235678,
+        3103.9994547579604,
+        2167.9998583857914
+      ],
+      "color": [
+        0.098039,
+        1,
+        0
+      ],
+      "texture": "/maps/zone-gradient.png"
+    },
+    {
+      "mesh": "n0_lr0_c0_s_cb_nomerge4_gradient_end.meshset_0",
+      "kind": "end",
+      "min": [
+        48.00020421749342,
+        -2466.9994165638727,
+        1791.9992888567647
+      ],
+      "max": [
+        240.00016221746338,
+        -2466.9994165638723,
+        1801.999351935172
+      ],
+      "color": [
+        0.647059,
+        0.164706,
+        0.164706
+      ],
+      "texture": "/maps/zone-gradient.png"
+    }
+  ]
+}

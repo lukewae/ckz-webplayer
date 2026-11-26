@@ -1,0 +1,155 @@
+{
+  "mappingApiVersion": 2,
+  "courses": [
+    {
+      "key": "course_kiwi_main",
+      "name": "Main",
+      "number": 1
+    }
+  ],
+  "zones": [
+    {
+      "id": "382",
+      "kind": "end",
+      "course": "course_kiwi_main",
+      "sourceOrigin": [
+        3144,
+        3468,
+        6864
+      ],
+      "hulls": [
+        [
+          {
+            "normal": [
+              0,
+              1,
+              0
+            ],
+            "dist": 3536
+          },
+          {
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "dist": -6856
+          },
+          {
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "dist": -3392
+          },
+          {
+            "normal": [
+              1,
+              0,
+              0
+            ],
+            "dist": 3216
+          },
+          {
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "dist": 6872
+          },
+          {
+            "normal": [
+              -1,
+              0,
+              0
+            ],
+            "dist": -3072
+          }
+        ]
+      ]
+    },
+    {
+      "id": "2131",
+      "kind": "start",
+      "course": "course_kiwi_main",
+      "sourceOrigin": [
+        2128,
+        3056,
+        3183
+      ],
+      "hulls": [
+        [
+          {
+            "normal": [
+              0,
+              1,
+              0
+            ],
+            "dist": 3072
+          },
+          {
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "dist": -3181
+          },
+          {
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "dist": -3040
+          },
+          {
+            "normal": [
+              1,
+              0,
+              0
+            ],
+            "dist": 2144
+          },
+          {
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "dist": 3185
+          },
+          {
+            "normal": [
+              -1,
+              0,
+              0
+            ],
+            "dist": -2112
+          }
+        ]
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "course": "course_kiwi_main",
+      "position": [
+        2140,
+        3040,
+        3181
+      ],
+      "yaw": 315,
+      "pitch": 0
+    }
+  ],
+  "markers": [],
+  "unsupportedTriggers": [
+    {
+      "id": "1873",
+      "type": 1
+    }
+  ]
+}
