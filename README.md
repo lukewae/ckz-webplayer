@@ -22,7 +22,7 @@ Practice strafing, bunnyhops, ladders and technical routes with checkpoints, cou
 - **Practice tools:** checkpoints, teleport and undo, course restart, pause and noclip.
 - **Run feedback:** course timing, local personal bests, jump reports and playback of the last completed local run.
 - **A configurable HUD:** position and scale the speed display, timer, jump information and crosshair; tune controls and sound effects.
-- **A standalone static build:** four maps, their active runtime assets and the player total **94.06 MB** in the deployed snapshot.
+- **A standalone static build:** four maps, their active runtime assets and the player total **94.07 MB** in the deployed snapshot.
 
 This version is **local play**: Steam sign-in, shared leaderboards and online replay hosting are disabled. Personal bests are browser-local; the last-run replay belongs to the current session.
 
@@ -92,7 +92,7 @@ npm run dev
 Open the localhost URL printed by Vite. The development configuration enables the same local-play mode as the hosted demo, without requiring a backend.
 
 ```sh
-npm test          # 49 focused movement, collision, ladder and input checks
+npm test          # 54 focused movement, collision, ladder and input checks
 npm run build    # TypeScript check, then rebuild demo/
 npm run preview  # Serve the rebuilt demo locally
 ```
@@ -109,7 +109,7 @@ npx vercel@latest
 
 Select the intended Vercel account and project. Creating a GitHub repository does not automatically link it to the existing Vercel project.
 
-The original committed snapshot uses versioned `/releases/…/maps/` URLs. A fresh source build copies the same required assets from `public/` and serves them at `/maps/`. Both layouts are self-contained.
+The committed build serves map assets at `/maps/`. A fresh source build copies all required runtime assets from `public/` automatically.
 
 <details>
 <summary><strong>Repository layout</strong></summary>

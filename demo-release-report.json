@@ -1,5 +1,5 @@
 {
-  "id": "four-map-vercel-20261126",
+  "id": "webplayer-entry-roof-20261126",
   "mode": "static-local-play",
   "maps": [
     {
@@ -45,319 +45,1559 @@
   ],
   "files": [
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/map.glb",
-      "bytes": 1328080,
-      "sha256": "3a3c94d6c96fa24780b8a3d1a99c35e36451a65fa48cf609d03ba73c7e0a5b64"
+      "path": "assets/index-Dc97WTC1.js",
+      "bytes": 710298,
+      "sha256": "4ff9d4bcf33b3e1a7ea3f5470dfb4bff4a56c658e89ee2c19f5dcc6cff2c4c76"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/gradient_png_1a7e881a.webp",
-      "bytes": 178,
-      "sha256": "66271090d2f7564035a9619e20fee1dc6a788103dc145e296bb5fa50de0cb34f"
+      "path": "assets/index-p0FuO99N.css",
+      "bytes": 45006,
+      "sha256": "a76021d8d851eb9bdb2e8381f1f57bb3a2a6bac31b0ebc0429aab49f1fba307d"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/default_normal_tga_7be61377.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+      "path": "audio/jumpstats/godlike.mp3",
+      "bytes": 16773,
+      "sha256": "206b21d05207b8aec1516e0aafcf06e78ddaca479e5c8413e04875a2a241a14b"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/gradient_vmat_g_tselfillummask_ff155607.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+      "path": "audio/jumpstats/impressive.mp3",
+      "bytes": 25283,
+      "sha256": "5c822c6be1262d26a872db0897828a44719889b4367693d33255712f70dcf717"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/default_ao_tga_559f1ac6_orm_171884568.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+      "path": "audio/jumpstats/ownage.mp3",
+      "bytes": 24421,
+      "sha256": "ed9702c003d76cc7befa268a4b4759525d2c33eec35bec41b5648098e0e98dc3"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/_misc_ironwin_color_tga_92b07b06.webp",
-      "bytes": 22306,
-      "sha256": "8946a5c817018b1bb7e1f15c2eb4761b01ffe7af04aca94d766de6c7fd6e30b1"
+      "path": "audio/jumpstats/perfect.mp3",
+      "bytes": 19893,
+      "sha256": "e91d693f798cb64006881d087dfc3761f0ba78b4848ad6ac4f83277afe1d6055"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/metalgate004a_color_tga_da58ab8a.webp",
-      "bytes": 61128,
-      "sha256": "6df739481a731343f2e8508b33b76e561a4e18d31c751896b08e8c2ae3e3b1a1"
+      "path": "audio/jumpstats/provenance.json",
+      "bytes": 921,
+      "sha256": "57b01aa1bd3978af365e43e5dc23ac60e0a39455759e4d73ecc342222086fb0e"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/offlightcover_color_tga_e9d30965.webp",
-      "bytes": 4766,
-      "sha256": "f08bf0bfab244987fb13e30151fb2c40ea1bb3c6372b48527ba75423544476e2"
+      "path": "audio/jumpstats/wrecker.mp3",
+      "bytes": 31858,
+      "sha256": "2036f26a0983639b9ef623574ddc28c75580de7a30f2c7c1fa6bb31d4017e06c"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/railing01_color_tga_a0bf500e.webp",
-      "bytes": 1410,
-      "sha256": "f5929b65a6b15853353b5863c2be7bf2de875da858cd46614a03588934e105a2"
+      "path": "index.html",
+      "bytes": 361,
+      "sha256": "aa6d41fc3c467c59014b2eaa98edcf1ac66cb6825dbec6267b6ff86a6d588a43"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/brickwall008a_color_tga_55400e16.webp",
-      "bytes": 121214,
-      "sha256": "1ac7847111f1a9ff95b70b6c35ae1eb363423bf8cdaa0571880cefff698686e9"
+      "path": "LICENSE",
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/brickwall045f_color_tga_e695d907.webp",
-      "bytes": 88402,
-      "sha256": "a52bcb037f65947ec4e5de76f97ff3d33829816b610121547c4075e38cb15c35"
+      "path": "licenses/GOKZ.txt",
+      "bytes": 35141,
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/pwood1_color_tga_cb73a474.webp",
-      "bytes": 82344,
-      "sha256": "9c980454c58f68268acfa678f5e57ee6d8edf65e8c03c69b5b94e9080ab9d203"
+      "path": "licenses/unsurf-Apache-2.0.txt",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/dusttile03_color_tga_8818b39d.webp",
-      "bytes": 28810,
-      "sha256": "881abeea43b88f28d2856493f86f7b961e61744990ec6e490d06a9e5636b3744"
+      "path": "licenses/unsurf-NOTICE.txt",
+      "bytes": 140,
+      "sha256": "ea844d10454f539ea3af56887db29beff3e0437ee4de1ebdc74b23d1c6e6a719"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/valuesand10_png_98875431.webp",
-      "bytes": 100866,
-      "sha256": "072db1ea17eb2b8757cf035f6ff89afcfcbd76c8777cc61ce5f4ede8ad51b10a"
+      "path": "licenses/ValveResourceFormat.txt",
+      "bytes": 1122,
+      "sha256": "3f91bfe3fd1f256aec63492f90ad1e6c3438f4ebc932ac036c09d69b1d90290c"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/bricks1x2_color_png_e14b0d9e.webp",
-      "bytes": 240450,
-      "sha256": "b9b8b3abb3b1104eea07f81c252a3a92d43411323d8a94dafc05af2248110707"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/top_color_png_4d5a7d56.webp",
-      "bytes": 49802,
-      "sha256": "8858c823c5d51cda8a2450fe382d633dd8ddcbff0eb7f3573d01a849042d254c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/top_normal_png_e5fc875d.webp",
-      "bytes": 527714,
-      "sha256": "2e57261b8b057c6b5a733513df8d3f16f388fea5d7be5bdec5d0cf1804ac29a9"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/black_vmat_g_tcolor_20638b28.webp",
-      "bytes": 44,
-      "sha256": "e68bb6828d842a6c845223b2966aef7c28134491c003f940020e17ee8b06391d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/bricks1x2_color_png_30b4ebb9.webp",
-      "bytes": 7404,
-      "sha256": "3a7bd92a357807ff40c8ce19a2609dfe5e89d3f72d88b8f20d48a8275bd10159"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/bricks1x2_normal_png_5497e895.webp",
-      "bytes": 97890,
-      "sha256": "4dc5f0d54f3682918da40d1aa35ed2ee8664f9ef6fb299a1523abfc2f385408a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/white001_nochop_vmat_g_tcolor_64dfd14c.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/brickwall031b_snow_color_tga_131d7098.webp",
-      "bytes": 80010,
-      "sha256": "adae33d5b5788f83c6419b377b10867424c89fafe957bf820e1bcdb29ccdd7cc"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/brickwall053d_color_tga_189de1ee.webp",
-      "bytes": 85420,
-      "sha256": "852106bf521111678b803b9b1c64286ed8d36180a89d09e3068235195e6e0f6d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/brick_b_fs_color_tga_8fa86e31.webp",
-      "bytes": 162926,
-      "sha256": "4b2e7bf104f848200379d7574810354e6572bc95141e8ff14c3502f4809668f6"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/concreteceiling003a_color_tga_5b7e7323.webp",
-      "bytes": 64520,
-      "sha256": "288238ecf9f6433f339615024a266fd55a2fc405cee395ec592882974309cd67"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/hr_conc_f2_color_tga_754f2392.webp",
-      "bytes": 34962,
-      "sha256": "71375b4eef699966ace305502d492bfac40f9c95a05de18de3b0b259aaa1e74d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/cobblestone_grass_blend_1_002_psd_b349b771.webp",
-      "bytes": 273996,
-      "sha256": "b7ef0429c4a77cf26fb3b1b796d6660910b40e797f8ba259f12049730a4bb8ab"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/cobblestone_grass_blend_1_normal_tga_3fdef1b5.webp",
-      "bytes": 1929210,
-      "sha256": "fc7db8b58fd91e428dd15bc485a61d9e8911ee14258c8a53f556d194dea87027"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/flagstones_b_01_color_tga_5459d234.webp",
-      "bytes": 64374,
-      "sha256": "b919d0507529293974b80a7c69edf72603a3c4ee681f9f317b2b8a6673851b5c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/ivy_cbble01a_color_tga_7273f419.webp",
-      "bytes": 119434,
-      "sha256": "eda9bdf1d765de8b3f5811f09c0fc55e69aeaeb8ca96fb8ea37c0cb42aa3880f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/outwall02_color_tga_30d4abc7.webp",
-      "bytes": 87824,
-      "sha256": "8ad48458982f2c80d3037fe7e0ac22601ccc09af9078809b7a4368389051206a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/outwall02d_color_tga_c8abafba.webp",
-      "bytes": 90434,
-      "sha256": "7a7c4fc31931093f56aa7a5040b57fbe4ee62d6915f1a04b1628b43a509bda78"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/dust_palacewall01_color_tga_e14b540e.webp",
-      "bytes": 124616,
-      "sha256": "7bc38a3eb367be6c1508aeb3d33aa4e0a94f7f575e46819dba9b6443123b981f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/marketwall03_color_tga_5eb11b0e.webp",
-      "bytes": 31364,
-      "sha256": "5ab648c3a62817eca5d39564e4134cd8ea1e7c89fd12c83fbf1a1468e90cfa70"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/ground_tiled_diffuse_color_tga_cfada452.webp",
-      "bytes": 428310,
-      "sha256": "a5196fa325a2dc83f4deb66bb75c3be49927d2c2dc665a968ea31f20d386fcd4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/ground_tilee_diffuse_color_tga_8cbb1428.webp",
-      "bytes": 337754,
-      "sha256": "676ae2850b2f681e607cd1f2a8e41a6be8e3d847edf1f7e7e8648481a0edd54d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/de_mirage_marble_01_color_psd_7342b537.webp",
-      "bytes": 175648,
-      "sha256": "4d007a1e959953ee1db95c2126759a91a80c8b511890f95a76d633519613f95c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/marble_01_vmat_g_tlayer1ambientocclusion_9782fd5c_orm_1715439230.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/dev_stonewall001a_png_5b938a06.webp",
-      "bytes": 46436,
-      "sha256": "6500052a15a8bb448567fe936a8016a384d7bf6b78368ca953cc7e7fef4b7f16"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/value10_png_f2469f4a.webp",
-      "bytes": 117952,
-      "sha256": "0e7b1aee8960b08a90f41df3ec8f5c7c76820bf198ba9354c151d999cf6744a3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/value20_png_29db04e1.webp",
-      "bytes": 114300,
-      "sha256": "9766c48eb97b7d2bdc4933fe5abb01919be731340a5ffa76588b69469db4c126"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/valuesand20_png_c80efa11.webp",
-      "bytes": 99436,
-      "sha256": "91e58bacdd2dd2c7aad9933ccbb42e47292305fa080696cd78239484961bf835"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/metalfloor002a_color_tga_31acc4f5.webp",
-      "bytes": 91748,
-      "sha256": "50ac68a8b67ae02247e475b7f2a7f2936c50bc10350944e54fb3c81b11b5f37d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/metalfloor005a_color_tga_339b877a.webp",
-      "bytes": 60098,
-      "sha256": "80396996853dac71d8a6874fc986f424855632591a21b1ea14a834ab50da200d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/metalgrate008a_color_tga_4846b468.webp",
-      "bytes": 99978,
-      "sha256": "998ece099dfed53cb62016996b5fc73028ab45a685155ab5d60e87f6b0d28657"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/metalwall060a_color_tga_319f7d08.webp",
-      "bytes": 31920,
-      "sha256": "70d99a6f5f115cecddbddd59c68f99201a0aaff33d8fdebe0264a8f0bee90650"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/offgaragedr_color_tga_a92eb03f.webp",
-      "bytes": 94938,
-      "sha256": "6f59f48d3218d7b352cb7b6294310b424e86230be24395050869c8e4576d4841"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/pure_blue1_vmat_g_tcolor_a05195ea.webp",
-      "bytes": 68,
-      "sha256": "6fe7a53ef93560a1383b2d08b53f1d070ca3a40936cc6b2e7dd48b83da82b3b0"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/pure_blue2_vmat_g_tcolor_f5067e8b.webp",
-      "bytes": 68,
-      "sha256": "7ad7029cce884efee1fdfae9a99dedcb67e23307719d3005a957a157a49d3fc2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/rbg_cyan_vmat_g_tcolor_f28ec198.webp",
-      "bytes": 70,
-      "sha256": "d2b69b9326bac938ac9523b0cdd93032354efb115f63e3694e616607d0170fe5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/white_vmat_g_tcolor_64dfd14c.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/storefront_template001a_color_tga_de416cd.webp",
-      "bytes": 39534,
-      "sha256": "e7b01c0d4c44520f10f575032073b749305f277a941e61f5e2d5f33ef8d87bf0"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/tech_panels_a_color_tga_fc64d7b9.webp",
-      "bytes": 23408,
-      "sha256": "262d80423f352f34679a908fa9e66995d35743c2d3cc4d30b7a185a96ecd7568"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/ceilingtilea_color_tga_88311bfe.webp",
-      "bytes": 103440,
-      "sha256": "6a43b46845fe5d85a01c67185f4ac99cef59e45b418418b84a1675fecb10c863"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/milflr002_color_psd_24c21a41.webp",
-      "bytes": 25288,
-      "sha256": "c12fc352599fe83398d25b7d42a56503c3dbc6f6308cdec9d285cddfa61a7a3e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/wall_paper_a_color_tga_f0e45a86.webp",
-      "bytes": 182030,
-      "sha256": "d63c190da8f172c0795599d9fc26e8cfab842b04f9c44dce366e04b4ebffdef0"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/lightweight/bh_wall_airline_color_tga_56b2ec37.webp",
-      "bytes": 67516,
-      "sha256": "f34c2cfc45a17d068d6caef07491bc2a405ccb0e971b90af592b7314aef0aba2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/manifest.json",
-      "bytes": 2712,
-      "sha256": "e17b722d0c30c90aac5ae40db32f7bdd49e9046ee68628e90df0b2e275caedcc"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/gameplay.json",
-      "bytes": 3822,
-      "sha256": "54885c3633488ce3e802723e07bf0e95e9c625892df81209fd5190d85619cdb2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/transports.json",
-      "bytes": 501,
-      "sha256": "e47fc201facdec3d918fa946502f0a4e10b080f8a80eafa45f92aa0de3894894"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/splits.json",
-      "bytes": 3033,
-      "sha256": "1b3a3b836712ad297054634e54386cebd4ddd75f4fd7775c66ed48c3b56cfd53"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/collision.bin",
+      "path": "maps/3104579274/collision.bin",
       "bytes": 226980,
       "sha256": "46b1f4d42c84b363ff3c8a94dfb4786379be980e6b118b89bd05bd0150b16cab"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3104579274/ladders.bin",
+      "path": "maps/3104579274/gameplay.json",
+      "bytes": 3822,
+      "sha256": "54885c3633488ce3e802723e07bf0e95e9c625892df81209fd5190d85619cdb2"
+    },
+    {
+      "path": "maps/3104579274/ladders.bin",
       "bytes": 2304,
       "sha256": "0d69b97522044375b8dc6d816260583922b2a20b1a8d0a0c749caa1ed24583ff"
+    },
+    {
+      "path": "maps/3104579274/lightweight/bh_wall_airline_color_tga_56b2ec37.webp",
+      "bytes": 67516,
+      "sha256": "f34c2cfc45a17d068d6caef07491bc2a405ccb0e971b90af592b7314aef0aba2"
+    },
+    {
+      "path": "maps/3104579274/lightweight/black_vmat_g_tcolor_20638b28.webp",
+      "bytes": 44,
+      "sha256": "e68bb6828d842a6c845223b2966aef7c28134491c003f940020e17ee8b06391d"
+    },
+    {
+      "path": "maps/3104579274/lightweight/bricks1x2_color_png_30b4ebb9.webp",
+      "bytes": 7404,
+      "sha256": "3a7bd92a357807ff40c8ce19a2609dfe5e89d3f72d88b8f20d48a8275bd10159"
+    },
+    {
+      "path": "maps/3104579274/lightweight/bricks1x2_color_png_e14b0d9e.webp",
+      "bytes": 240450,
+      "sha256": "b9b8b3abb3b1104eea07f81c252a3a92d43411323d8a94dafc05af2248110707"
+    },
+    {
+      "path": "maps/3104579274/lightweight/bricks1x2_normal_png_5497e895.webp",
+      "bytes": 97890,
+      "sha256": "4dc5f0d54f3682918da40d1aa35ed2ee8664f9ef6fb299a1523abfc2f385408a"
+    },
+    {
+      "path": "maps/3104579274/lightweight/brickwall008a_color_tga_55400e16.webp",
+      "bytes": 121214,
+      "sha256": "1ac7847111f1a9ff95b70b6c35ae1eb363423bf8cdaa0571880cefff698686e9"
+    },
+    {
+      "path": "maps/3104579274/lightweight/brickwall031b_snow_color_tga_131d7098.webp",
+      "bytes": 80010,
+      "sha256": "adae33d5b5788f83c6419b377b10867424c89fafe957bf820e1bcdb29ccdd7cc"
+    },
+    {
+      "path": "maps/3104579274/lightweight/brickwall045f_color_tga_e695d907.webp",
+      "bytes": 88402,
+      "sha256": "a52bcb037f65947ec4e5de76f97ff3d33829816b610121547c4075e38cb15c35"
+    },
+    {
+      "path": "maps/3104579274/lightweight/brickwall053d_color_tga_189de1ee.webp",
+      "bytes": 85420,
+      "sha256": "852106bf521111678b803b9b1c64286ed8d36180a89d09e3068235195e6e0f6d"
+    },
+    {
+      "path": "maps/3104579274/lightweight/brick_b_fs_color_tga_8fa86e31.webp",
+      "bytes": 162926,
+      "sha256": "4b2e7bf104f848200379d7574810354e6572bc95141e8ff14c3502f4809668f6"
+    },
+    {
+      "path": "maps/3104579274/lightweight/ceilingtilea_color_tga_88311bfe.webp",
+      "bytes": 103440,
+      "sha256": "6a43b46845fe5d85a01c67185f4ac99cef59e45b418418b84a1675fecb10c863"
+    },
+    {
+      "path": "maps/3104579274/lightweight/cobblestone_grass_blend_1_002_psd_b349b771.webp",
+      "bytes": 273996,
+      "sha256": "b7ef0429c4a77cf26fb3b1b796d6660910b40e797f8ba259f12049730a4bb8ab"
+    },
+    {
+      "path": "maps/3104579274/lightweight/cobblestone_grass_blend_1_normal_tga_3fdef1b5.webp",
+      "bytes": 1929210,
+      "sha256": "fc7db8b58fd91e428dd15bc485a61d9e8911ee14258c8a53f556d194dea87027"
+    },
+    {
+      "path": "maps/3104579274/lightweight/concreteceiling003a_color_tga_5b7e7323.webp",
+      "bytes": 64520,
+      "sha256": "288238ecf9f6433f339615024a266fd55a2fc405cee395ec592882974309cd67"
+    },
+    {
+      "path": "maps/3104579274/lightweight/default_ao_tga_559f1ac6_orm_171884568.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3104579274/lightweight/default_normal_tga_7be61377.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3104579274/lightweight/dev_stonewall001a_png_5b938a06.webp",
+      "bytes": 46436,
+      "sha256": "6500052a15a8bb448567fe936a8016a384d7bf6b78368ca953cc7e7fef4b7f16"
+    },
+    {
+      "path": "maps/3104579274/lightweight/de_mirage_marble_01_color_psd_7342b537.webp",
+      "bytes": 175648,
+      "sha256": "4d007a1e959953ee1db95c2126759a91a80c8b511890f95a76d633519613f95c"
+    },
+    {
+      "path": "maps/3104579274/lightweight/dusttile03_color_tga_8818b39d.webp",
+      "bytes": 28810,
+      "sha256": "881abeea43b88f28d2856493f86f7b961e61744990ec6e490d06a9e5636b3744"
+    },
+    {
+      "path": "maps/3104579274/lightweight/dust_palacewall01_color_tga_e14b540e.webp",
+      "bytes": 124616,
+      "sha256": "7bc38a3eb367be6c1508aeb3d33aa4e0a94f7f575e46819dba9b6443123b981f"
+    },
+    {
+      "path": "maps/3104579274/lightweight/flagstones_b_01_color_tga_5459d234.webp",
+      "bytes": 64374,
+      "sha256": "b919d0507529293974b80a7c69edf72603a3c4ee681f9f317b2b8a6673851b5c"
+    },
+    {
+      "path": "maps/3104579274/lightweight/gradient_png_1a7e881a.webp",
+      "bytes": 178,
+      "sha256": "66271090d2f7564035a9619e20fee1dc6a788103dc145e296bb5fa50de0cb34f"
+    },
+    {
+      "path": "maps/3104579274/lightweight/gradient_vmat_g_tselfillummask_ff155607.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3104579274/lightweight/ground_tiled_diffuse_color_tga_cfada452.webp",
+      "bytes": 428310,
+      "sha256": "a5196fa325a2dc83f4deb66bb75c3be49927d2c2dc665a968ea31f20d386fcd4"
+    },
+    {
+      "path": "maps/3104579274/lightweight/ground_tilee_diffuse_color_tga_8cbb1428.webp",
+      "bytes": 337754,
+      "sha256": "676ae2850b2f681e607cd1f2a8e41a6be8e3d847edf1f7e7e8648481a0edd54d"
+    },
+    {
+      "path": "maps/3104579274/lightweight/hr_conc_f2_color_tga_754f2392.webp",
+      "bytes": 34962,
+      "sha256": "71375b4eef699966ace305502d492bfac40f9c95a05de18de3b0b259aaa1e74d"
+    },
+    {
+      "path": "maps/3104579274/lightweight/ivy_cbble01a_color_tga_7273f419.webp",
+      "bytes": 119434,
+      "sha256": "eda9bdf1d765de8b3f5811f09c0fc55e69aeaeb8ca96fb8ea37c0cb42aa3880f"
+    },
+    {
+      "path": "maps/3104579274/lightweight/map.glb",
+      "bytes": 1328080,
+      "sha256": "3a3c94d6c96fa24780b8a3d1a99c35e36451a65fa48cf609d03ba73c7e0a5b64"
+    },
+    {
+      "path": "maps/3104579274/lightweight/marble_01_vmat_g_tlayer1ambientocclusion_9782fd5c_orm_1715439230.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3104579274/lightweight/marketwall03_color_tga_5eb11b0e.webp",
+      "bytes": 31364,
+      "sha256": "5ab648c3a62817eca5d39564e4134cd8ea1e7c89fd12c83fbf1a1468e90cfa70"
+    },
+    {
+      "path": "maps/3104579274/lightweight/metalfloor002a_color_tga_31acc4f5.webp",
+      "bytes": 91748,
+      "sha256": "50ac68a8b67ae02247e475b7f2a7f2936c50bc10350944e54fb3c81b11b5f37d"
+    },
+    {
+      "path": "maps/3104579274/lightweight/metalfloor005a_color_tga_339b877a.webp",
+      "bytes": 60098,
+      "sha256": "80396996853dac71d8a6874fc986f424855632591a21b1ea14a834ab50da200d"
+    },
+    {
+      "path": "maps/3104579274/lightweight/metalgate004a_color_tga_da58ab8a.webp",
+      "bytes": 61128,
+      "sha256": "6df739481a731343f2e8508b33b76e561a4e18d31c751896b08e8c2ae3e3b1a1"
+    },
+    {
+      "path": "maps/3104579274/lightweight/metalgrate008a_color_tga_4846b468.webp",
+      "bytes": 99978,
+      "sha256": "998ece099dfed53cb62016996b5fc73028ab45a685155ab5d60e87f6b0d28657"
+    },
+    {
+      "path": "maps/3104579274/lightweight/metalwall060a_color_tga_319f7d08.webp",
+      "bytes": 31920,
+      "sha256": "70d99a6f5f115cecddbddd59c68f99201a0aaff33d8fdebe0264a8f0bee90650"
+    },
+    {
+      "path": "maps/3104579274/lightweight/milflr002_color_psd_24c21a41.webp",
+      "bytes": 25288,
+      "sha256": "c12fc352599fe83398d25b7d42a56503c3dbc6f6308cdec9d285cddfa61a7a3e"
+    },
+    {
+      "path": "maps/3104579274/lightweight/offgaragedr_color_tga_a92eb03f.webp",
+      "bytes": 94938,
+      "sha256": "6f59f48d3218d7b352cb7b6294310b424e86230be24395050869c8e4576d4841"
+    },
+    {
+      "path": "maps/3104579274/lightweight/offlightcover_color_tga_e9d30965.webp",
+      "bytes": 4766,
+      "sha256": "f08bf0bfab244987fb13e30151fb2c40ea1bb3c6372b48527ba75423544476e2"
+    },
+    {
+      "path": "maps/3104579274/lightweight/outwall02d_color_tga_c8abafba.webp",
+      "bytes": 90434,
+      "sha256": "7a7c4fc31931093f56aa7a5040b57fbe4ee62d6915f1a04b1628b43a509bda78"
+    },
+    {
+      "path": "maps/3104579274/lightweight/outwall02_color_tga_30d4abc7.webp",
+      "bytes": 87824,
+      "sha256": "8ad48458982f2c80d3037fe7e0ac22601ccc09af9078809b7a4368389051206a"
+    },
+    {
+      "path": "maps/3104579274/lightweight/pure_blue1_vmat_g_tcolor_a05195ea.webp",
+      "bytes": 68,
+      "sha256": "6fe7a53ef93560a1383b2d08b53f1d070ca3a40936cc6b2e7dd48b83da82b3b0"
+    },
+    {
+      "path": "maps/3104579274/lightweight/pure_blue2_vmat_g_tcolor_f5067e8b.webp",
+      "bytes": 68,
+      "sha256": "7ad7029cce884efee1fdfae9a99dedcb67e23307719d3005a957a157a49d3fc2"
+    },
+    {
+      "path": "maps/3104579274/lightweight/pwood1_color_tga_cb73a474.webp",
+      "bytes": 82344,
+      "sha256": "9c980454c58f68268acfa678f5e57ee6d8edf65e8c03c69b5b94e9080ab9d203"
+    },
+    {
+      "path": "maps/3104579274/lightweight/railing01_color_tga_a0bf500e.webp",
+      "bytes": 1410,
+      "sha256": "f5929b65a6b15853353b5863c2be7bf2de875da858cd46614a03588934e105a2"
+    },
+    {
+      "path": "maps/3104579274/lightweight/rbg_cyan_vmat_g_tcolor_f28ec198.webp",
+      "bytes": 70,
+      "sha256": "d2b69b9326bac938ac9523b0cdd93032354efb115f63e3694e616607d0170fe5"
+    },
+    {
+      "path": "maps/3104579274/lightweight/storefront_template001a_color_tga_de416cd.webp",
+      "bytes": 39534,
+      "sha256": "e7b01c0d4c44520f10f575032073b749305f277a941e61f5e2d5f33ef8d87bf0"
+    },
+    {
+      "path": "maps/3104579274/lightweight/tech_panels_a_color_tga_fc64d7b9.webp",
+      "bytes": 23408,
+      "sha256": "262d80423f352f34679a908fa9e66995d35743c2d3cc4d30b7a185a96ecd7568"
+    },
+    {
+      "path": "maps/3104579274/lightweight/top_color_png_4d5a7d56.webp",
+      "bytes": 49802,
+      "sha256": "8858c823c5d51cda8a2450fe382d633dd8ddcbff0eb7f3573d01a849042d254c"
+    },
+    {
+      "path": "maps/3104579274/lightweight/top_normal_png_e5fc875d.webp",
+      "bytes": 527714,
+      "sha256": "2e57261b8b057c6b5a733513df8d3f16f388fea5d7be5bdec5d0cf1804ac29a9"
+    },
+    {
+      "path": "maps/3104579274/lightweight/value10_png_f2469f4a.webp",
+      "bytes": 117952,
+      "sha256": "0e7b1aee8960b08a90f41df3ec8f5c7c76820bf198ba9354c151d999cf6744a3"
+    },
+    {
+      "path": "maps/3104579274/lightweight/value20_png_29db04e1.webp",
+      "bytes": 114300,
+      "sha256": "9766c48eb97b7d2bdc4933fe5abb01919be731340a5ffa76588b69469db4c126"
+    },
+    {
+      "path": "maps/3104579274/lightweight/valuesand10_png_98875431.webp",
+      "bytes": 100866,
+      "sha256": "072db1ea17eb2b8757cf035f6ff89afcfcbd76c8777cc61ce5f4ede8ad51b10a"
+    },
+    {
+      "path": "maps/3104579274/lightweight/valuesand20_png_c80efa11.webp",
+      "bytes": 99436,
+      "sha256": "91e58bacdd2dd2c7aad9933ccbb42e47292305fa080696cd78239484961bf835"
+    },
+    {
+      "path": "maps/3104579274/lightweight/wall_paper_a_color_tga_f0e45a86.webp",
+      "bytes": 182030,
+      "sha256": "d63c190da8f172c0795599d9fc26e8cfab842b04f9c44dce366e04b4ebffdef0"
+    },
+    {
+      "path": "maps/3104579274/lightweight/white001_nochop_vmat_g_tcolor_64dfd14c.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3104579274/lightweight/white_vmat_g_tcolor_64dfd14c.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3104579274/lightweight/_misc_ironwin_color_tga_92b07b06.webp",
+      "bytes": 22306,
+      "sha256": "8946a5c817018b1bb7e1f15c2eb4761b01ffe7af04aca94d766de6c7fd6e30b1"
+    },
+    {
+      "path": "maps/3104579274/manifest.json",
+      "bytes": 2712,
+      "sha256": "e17b722d0c30c90aac5ae40db32f7bdd49e9046ee68628e90df0b2e275caedcc"
+    },
+    {
+      "path": "maps/3104579274/splits.json",
+      "bytes": 3033,
+      "sha256": "1b3a3b836712ad297054634e54386cebd4ddd75f4fd7775c66ed48c3b56cfd53"
+    },
+    {
+      "path": "maps/3104579274/transports.json",
+      "bytes": 501,
+      "sha256": "e47fc201facdec3d918fa946502f0a4e10b080f8a80eafa45f92aa0de3894894"
+    },
+    {
+      "path": "maps/3366047597/collision.bin",
+      "bytes": 385560,
+      "sha256": "013d064d27e79b740ac08efe72e77d3722634625576a17a0cf918c7128d714a4"
+    },
+    {
+      "path": "maps/3366047597/gameplay.json",
+      "bytes": 3569,
+      "sha256": "027dcea78504c8befb0c2597696ab34ff9ecf5b0e5b61514c1ae3512327f9bd1"
+    },
+    {
+      "path": "maps/3366047597/ladders.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "maps/3366047597/lightweight/ancient_river_rock_01_color_tga_8ba38385.webp",
+      "bytes": 281278,
+      "sha256": "4866f31795ca2776624998553f8976201dfc8341e87a22a9d8901e8d60fd5485"
+    },
+    {
+      "path": "maps/3366047597/lightweight/ancient_river_rock_01_normal_tga_4a16e715.webp",
+      "bytes": 1979392,
+      "sha256": "c7ed73eaadce691015f047bd25b747ee43f1e04eb5d6d5c6244a840f3c39c315"
+    },
+    {
+      "path": "maps/3366047597/lightweight/ancient_skybox_tree_cards_01_ao_tga_7bcf874f_orm_2273398978.webp",
+      "bytes": 210976,
+      "sha256": "96e5f5e039142c0c30effb6b763654a0720c631a59e756213b4ba6a38c3a891b"
+    },
+    {
+      "path": "maps/3366047597/lightweight/ancient_skybox_tree_cards_01_color_tga_17ad5d17.webp",
+      "bytes": 512598,
+      "sha256": "a46d595ead8ca670ee95204c3baa66ec37192255534e3c27c0efaee951901d6b"
+    },
+    {
+      "path": "maps/3366047597/lightweight/ancient_skybox_tree_cards_01_normal_tga_ea777c08.webp",
+      "bytes": 1024456,
+      "sha256": "65628d8ad4590043c67bc520ceab391bcf1cf9fd7953dfc7f1b3d25044616acf"
+    },
+    {
+      "path": "maps/3366047597/lightweight/barberry_02_color_psd_bc0a8df0.webp",
+      "bytes": 57882,
+      "sha256": "14bb0a16b5fe46e83c0219e91dfe04dc37699da3b7a1e7d43aa87a074a918cb9"
+    },
+    {
+      "path": "maps/3366047597/lightweight/barberry_02_normal_psd_10b0ee63.webp",
+      "bytes": 206478,
+      "sha256": "0fd0f85b938df32e8af8ed92f2b45c70fc775990ec72d1f1c5061d57abdc5bfb"
+    },
+    {
+      "path": "maps/3366047597/lightweight/black_vmat_g_tcolor1_cc87d5c7.webp",
+      "bytes": 44,
+      "sha256": "e68bb6828d842a6c845223b2966aef7c28134491c003f940020e17ee8b06391d"
+    },
+    {
+      "path": "maps/3366047597/lightweight/black_vmat_g_tnormal1_53b47c48.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3366047597/lightweight/brixk3g_nrm_tga_5e9d564f.webp",
+      "bytes": 1721116,
+      "sha256": "74307723cf7a9ee831a933cef4f7703e08c675c21a3aab128f19b2e9c277da9e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/brixk3g_tga_23ac4633.webp",
+      "bytes": 336422,
+      "sha256": "6fe030642d61409e9c72f721aa4abc913fe6beca0835837b2023071b3a0ce226"
+    },
+    {
+      "path": "maps/3366047597/lightweight/decksm1_nrm_tga_7b15bbbf.webp",
+      "bytes": 113800,
+      "sha256": "67da1700c0e502a0190e4ac56b67b2ac116718fd2c9e7139cf7f43707ff8e4b8"
+    },
+    {
+      "path": "maps/3366047597/lightweight/decksm1_tga_e12d82bf.webp",
+      "bytes": 8558,
+      "sha256": "cea84eae2fbefe93803c6ff15b16ce7ab87c308cf42be15c267f6715cd394d1d"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_ao_tga_559f1ac6_orm_171884568.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_ao_tga_559f1ac6_orm_3093089570.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_concrete_seawall001_ao_psd_f1b7c98c_orm_2442095522.webp",
+      "bytes": 550380,
+      "sha256": "d249832bdb4ca29ba19903bfaab9d554e5640ed60298cdc20a75ff3764ea4157"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_normal_tga_7652cb.webp",
+      "bytes": 36,
+      "sha256": "34503dc2053f2a8b0607becd70d7944da9256443961263cadd18931d72e1a6d2"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_normal_tga_7be39f77.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_normal_tga_7be61377.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3366047597/lightweight/default_normal_tga_b3f4ec4c_orm_3598707198.webp",
+      "bytes": 36,
+      "sha256": "14f7f48e88ee046f6d3e8a9a6c797e2cbf5327521cc94f62be82988d53b9e947"
+    },
+    {
+      "path": "maps/3366047597/lightweight/elderberry_01_color_psd_10d4bcdf.webp",
+      "bytes": 51078,
+      "sha256": "f96edbf11986eca27b38047756ce2223f6c18895897212a53daa1987be56c7fd"
+    },
+    {
+      "path": "maps/3366047597/lightweight/elderberry_01_normal_psd_3e96b9e2.webp",
+      "bytes": 213002,
+      "sha256": "f62353927692094f8ba05d1bd1de27535b54c5b3b8286f16b7e402dcb73e224a"
+    },
+    {
+      "path": "maps/3366047597/lightweight/elderberry_bark_01_color_psd_8e8418e2.webp",
+      "bytes": 129922,
+      "sha256": "025cc084f7c0c370b975482499967d57efb67ec1c2f8d95875ef68b06ee65cf0"
+    },
+    {
+      "path": "maps/3366047597/lightweight/elderberry_bark_01_normal_psd_9e1039c7.webp",
+      "bytes": 1128220,
+      "sha256": "51f46a75cca56ac8bec27f269ec61046c69b732265c8d194360c69b0cf32ec0a"
+    },
+    {
+      "path": "maps/3366047597/lightweight/flrwka_normal_tga_28ecf70.webp",
+      "bytes": 1994422,
+      "sha256": "d5f1d5eb9672f424da2adce73088c066776d82e089f288b6480f2e6b8c5dd374"
+    },
+    {
+      "path": "maps/3366047597/lightweight/flrwka_tga_ffff8749.webp",
+      "bytes": 327324,
+      "sha256": "6ba27e7e3c07f9280cf9f15acbdfb97f755f4e4f828a7c525271b3acc5f150ad"
+    },
+    {
+      "path": "maps/3366047597/lightweight/gradient_png_312f1924.webp",
+      "bytes": 178,
+      "sha256": "66271090d2f7564035a9619e20fee1dc6a788103dc145e296bb5fa50de0cb34f"
+    },
+    {
+      "path": "maps/3366047597/lightweight/gradient_vmat_g_tselfillummask_ff155607.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3366047597/lightweight/green_plane_vmat_g_tcolor_64dfd14c.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3366047597/lightweight/hr_ancient_tropical_foliage_02_ao_tga_55f4acf4_orm_721420369.webp",
+      "bytes": 45922,
+      "sha256": "8c08673b7a8c1650adfe5c1cf04e6e39e040520e3f3b66b2324e60d38d58d640"
+    },
+    {
+      "path": "maps/3366047597/lightweight/hr_ancient_yucca_01_ao_tga_beaa96f6_orm_3723284238.webp",
+      "bytes": 14662,
+      "sha256": "b2ebf34189e0385c23165e287ba6b61aec12ce3d8a5d15b3003faab95f907f50"
+    },
+    {
+      "path": "maps/3366047597/lightweight/hr_aztec_tropical_foliage_02_color_psd_88275b9c.webp",
+      "bytes": 96288,
+      "sha256": "3373250f0892c83e809b9e4b1351ba78fa72f27904264d946cb2fb4960c60188"
+    },
+    {
+      "path": "maps/3366047597/lightweight/hr_aztec_tropical_foliage_02_normal_tga_b549449d.webp",
+      "bytes": 474742,
+      "sha256": "7f0909142bc64df7572d43b523c9de98f7cb4a44032ccff8357e1f831787b753"
+    },
+    {
+      "path": "maps/3366047597/lightweight/hr_aztec_yucca_01_color_psd_7e162f1c.webp",
+      "bytes": 95152,
+      "sha256": "295ff3a672e323ed4293729b6a3126164b4d8e09f423de265e81601f38e25733"
+    },
+    {
+      "path": "maps/3366047597/lightweight/hr_aztec_yucca_01_normal_tga_2da3ba34.webp",
+      "bytes": 346586,
+      "sha256": "d4b45392e07cb819a8315323d0610af0b41b96fc1fd2f9ad2bfdfe5437734d9d"
+    },
+    {
+      "path": "maps/3366047597/lightweight/imported_foliage_grass_weed_cluster_001_interactive_color_psd_aaf70e0d.webp",
+      "bytes": 229384,
+      "sha256": "4d7bdff497a387ebb64a9deeeaec209f2eb6890fa261931510a0cd4b5937531a"
+    },
+    {
+      "path": "maps/3366047597/lightweight/imported_foliage_grass_weed_cluster_001_interactive_normal_psd_ccb62f1b.webp",
+      "bytes": 632882,
+      "sha256": "6e9025d0ab8786ab0b2d2177b985dd5886d155bbd9cdf574e2066fd1b8fc1e9a"
+    },
+    {
+      "path": "maps/3366047597/lightweight/imported_foliage_grass_weed_cluster_001_interactive_vmat_g_tambientocclusion_9782fd5c_orm_3760695080.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/mall_trees_branches01_vmat_g_tambientocclusion_9782fd5c_orm_2493246673.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/mall_trees_branches03_color_psd_c41e09a.webp",
+      "bytes": 575690,
+      "sha256": "c2fa97bd4b188e58d7903a1f036fdc74e0773b8f8e25097c6ecfc0eddc23b5df"
+    },
+    {
+      "path": "maps/3366047597/lightweight/mall_trees_branches03_normal_psd_89549f78.webp",
+      "bytes": 1057334,
+      "sha256": "aba16390fb42768beb018818950c77710704b1689dcd26d63f379531ed439d09"
+    },
+    {
+      "path": "maps/3366047597/lightweight/map.glb",
+      "bytes": 14578368,
+      "sha256": "2bd1f487d028b50b7fe1dfc0a739a5f5f77b541c37350b69a32a39df831bb14e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/maple_tree_bark_ao_tga_167a34d3_orm_3772960965.webp",
+      "bytes": 448814,
+      "sha256": "07a6ed4870555f4b15410589a31c8858d77c07252cf54b27b4681c9d3dac7b19"
+    },
+    {
+      "path": "maps/3366047597/lightweight/maple_tree_bark_color_psd_572eab9e.webp",
+      "bytes": 221718,
+      "sha256": "32c9c32b33dd16d67861216264b1c3d422d78059400a90e7450980a7dd59f588"
+    },
+    {
+      "path": "maps/3366047597/lightweight/maple_tree_bark_normal_tga_3e48acac.webp",
+      "bytes": 1255202,
+      "sha256": "624f68dfcfe78602c98589f21e9415cc10c896258b88cddc486cf675758c49fe"
+    },
+    {
+      "path": "maps/3366047597/lightweight/maple_tree_leaf_color_psd_38ca381.webp",
+      "bytes": 212994,
+      "sha256": "703617c2eabf32bd0bc777168f3ab3b7bc3b722c35791921de5723a1d593f6fe"
+    },
+    {
+      "path": "maps/3366047597/lightweight/maple_tree_leaf_normal_tga_f8a5e1d0.webp",
+      "bytes": 683954,
+      "sha256": "78974c48ff8be9508ce94f52a8cc66f01fa5ae049663f0868e20ad6ad3412c92"
+    },
+    {
+      "path": "maps/3366047597/lightweight/mgrass7_nrm_tga_b6d6d3eb.webp",
+      "bytes": 103804,
+      "sha256": "01c41cabe31323acebcd4085e4c2bb44ed19d24420b550790d1d1631a5b52d9a"
+    },
+    {
+      "path": "maps/3366047597/lightweight/mgrass7_tga_9bb13be5.webp",
+      "bytes": 23962,
+      "sha256": "3e2e2ab346a5d4f440dd97476202ca9e851ea1e0dde6e540b684c59bc0841085"
+    },
+    {
+      "path": "maps/3366047597/lightweight/orange_blend_vmat_g_tcolor_655e55ce.webp",
+      "bytes": 70,
+      "sha256": "326bbc9a0a2769e4420d86dd6ebd208ef82ccb24c9f95c04b53ba6764052bf77"
+    },
+    {
+      "path": "maps/3366047597/lightweight/orange_blend_vmat_g_tnormal_c0eeea94.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3366047597/lightweight/pool_water_normals_001_normal_tga_c8b79974.webp",
+      "bytes": 5882,
+      "sha256": "123c3aa49521e0473c2be4e9e7c8c18f2c69a0cc2ee81d4f3129a0faf3754647"
+    },
+    {
+      "path": "maps/3366047597/lightweight/primary_red_color_tga_1b3901a4.webp",
+      "bytes": 72,
+      "sha256": "586dab0aa4bcedc717079b72744cd3fa0c0b5a75ba4cc3f12d4e1aca544cc158"
+    },
+    {
+      "path": "maps/3366047597/lightweight/skylight_vmat_g_tambientocclusion_9782fd5c_orm_850641844.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/skylight_vmat_g_tcolor_7ab53e0a.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3366047597/lightweight/skylight_vmat_g_tnormal_d52512a9.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3366047597/lightweight/skylight_vmat_g_tselfillummask_ff155607.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/3366047597/lightweight/spindle_albedo_psd_6eb74f7e.webp",
+      "bytes": 175762,
+      "sha256": "358fb8fc7bcc7e302e69a2a44714cf35bb2fd5dbb3ba2b87cc355337027996b3"
+    },
+    {
+      "path": "maps/3366047597/lightweight/spindle_ao_tga_b3455fe2_orm_1601047868.webp",
+      "bytes": 15660,
+      "sha256": "48f206026978284e4aa4c069e6e84cfef8d65a2ebee208241eac9999d16be66b"
+    },
+    {
+      "path": "maps/3366047597/lightweight/spindle_normal_tga_173ea6b9.webp",
+      "bytes": 491278,
+      "sha256": "f663205985832e079142c0c911863c4c36f5d9408ae3280a992fddaba951a568"
+    },
+    {
+      "path": "maps/3366047597/lightweight/survival_river_04_color_psd_a205b169.webp",
+      "bytes": 1090,
+      "sha256": "c3557090c02bd490de2cd0ba4fdd82d90673966d6b81b10b75515b6415dc14a1"
+    },
+    {
+      "path": "maps/3366047597/lightweight/survival_river_04_normal_psd_9060ae23.webp",
+      "bytes": 454602,
+      "sha256": "6bd427121375c1e0f2cd074d1e829374f5966cfd1ba317678201811c00e0af57"
+    },
+    {
+      "path": "maps/3366047597/lightweight/tall_grass_card_color_psd_469e7880.webp",
+      "bytes": 44908,
+      "sha256": "eb0e810d930262685fdf67c7ad06b031c08c14e9705d1ad24cd849523b1c13ce"
+    },
+    {
+      "path": "maps/3366047597/lightweight/tools_solid_block_light_psd_d308939f.webp",
+      "bytes": 2396,
+      "sha256": "781e705f7c63ba239268dbec37d5f32bcdf33f9c3bb7324a73b104541b69d1da"
+    },
+    {
+      "path": "maps/3366047597/lightweight/train_metal_door_01_color_tga_e68bfdb.webp",
+      "bytes": 28264,
+      "sha256": "7a9747384f7e7a9312d880a5f67a65b9fd6d6a364f6a64da5a21919d06bef17c"
+    },
+    {
+      "path": "maps/3366047597/lightweight/urban_tree_small_1_ao_tga_fc84534_orm_3397766520.webp",
+      "bytes": 466774,
+      "sha256": "8170b6030df645cf34c9e5d54ae6344f4b8ba54f7bb160ccd40c1259e0f74f37"
+    },
+    {
+      "path": "maps/3366047597/lightweight/urban_tree_small_1_a_ao_tga_429e0afb_orm_4201784701.webp",
+      "bytes": 350442,
+      "sha256": "bf09c1468d24a98ec3cba26af52eb92287dee9e56e1ab2b7a43ba47d3230bc38"
+    },
+    {
+      "path": "maps/3366047597/lightweight/urban_tree_small_1_bark_color_psd_b863918e.webp",
+      "bytes": 255432,
+      "sha256": "1f67155e9d0ce5c0ca8280f496df6092b4c7259d3cf71044db478ec1ce50d680"
+    },
+    {
+      "path": "maps/3366047597/lightweight/urban_tree_small_1_color_psd_2aea4720.webp",
+      "bytes": 258612,
+      "sha256": "d11f3c5772cf6c5c00682a34935a079c488390288ec23b4e9d2e056790ad7f9f"
+    },
+    {
+      "path": "maps/3366047597/lightweight/urban_tree_small_1_normal_tga_34a2caf8.webp",
+      "bytes": 1829870,
+      "sha256": "564391327b716bc514118a87fd83d906ca2c2ad9dbd52f4d3aa82b66d401ec17"
+    },
+    {
+      "path": "maps/3366047597/lightweight/water2_tga_39ff0fa9.webp",
+      "bytes": 1992,
+      "sha256": "3bd0371410b0a1d807a8133ff752c66b324aba0e443b59e7fcb3b4b9ef11420d"
+    },
+    {
+      "path": "maps/3366047597/lightweight/water2_vmat_g_tnormal1_53b47c48.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/3366047597/lightweight/water_falling02_vmat_g_tmetalness_d78f1237_orm_1566752315.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/3366047597/lightweight/weeds_01a_ao_tga_b487aece_orm_3130782392.webp",
+      "bytes": 126454,
+      "sha256": "7f20082eb13fb258b48bebf82361bf3dfb0bc54db1f6f929a089d2af0a276004"
+    },
+    {
+      "path": "maps/3366047597/lightweight/weeds_01a_color_tga_10c1ea0d.webp",
+      "bytes": 562114,
+      "sha256": "91ce4e8df11b47fb373f67828038a8bd0bca71259e4008256f6813b1d72bbe03"
+    },
+    {
+      "path": "maps/3366047597/lightweight/weeds_01a_normal_tga_460aad19.webp",
+      "bytes": 1961774,
+      "sha256": "d4ab0bdbb57302462fbd8178ef86b175066092460c07555f08f0db350814e0bb"
+    },
+    {
+      "path": "maps/3366047597/manifest.json",
+      "bytes": 2851,
+      "sha256": "b7f0d20a08ec0e31855bbc5405412d34f92d38ef200fcab2ec3c011683d7c081"
+    },
+    {
+      "path": "maps/3366047597/splits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "maps/3366047597/transports.json",
+      "bytes": 15133,
+      "sha256": "63fd8c1a390c1de49fec3157c00e8a4578c490b8b448d5e67adcded395f604a7"
+    },
+    {
+      "path": "maps/3551310998/collision.bin",
+      "bytes": 783504,
+      "sha256": "c608c09a977af2681fcfec589e5c3746982c9cd1bd0e0664cc97288dae3756cd"
+    },
+    {
+      "path": "maps/3551310998/gameplay.json",
+      "bytes": 2522,
+      "sha256": "5cb8a7a70f4fe14cce7395c5c219919bf75a28c44b922dfccb22118e4691ae0a"
+    },
+    {
+      "path": "maps/3551310998/ladders.bin",
+      "bytes": 12132,
+      "sha256": "32eb2bb5f3cd81609436547870545dbb11cbe08f5948eb6f9ca81d5b828941d2"
+    },
+    {
+      "path": "maps/3551310998/manifest.json",
+      "bytes": 2915,
+      "sha256": "e7b4d758a0b18deca1bebd10f2f66176e9034135d5da4c8e9cb69bbc43158dae"
+    },
+    {
+      "path": "maps/3551310998/splits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "maps/3551310998/textured/0_color_tga_6cdeba3b.png",
+      "bytes": 4845,
+      "sha256": "e477371087256c75d5e9f4d4aecb58d063c988ab49afda9db639960ca7709b58"
+    },
+    {
+      "path": "maps/3551310998/textured/1_color_png_493bb967.png",
+      "bytes": 1823,
+      "sha256": "3e168c5e82fb091aeea92464567cf397fd968465c8f619cde4335a442e5214eb"
+    },
+    {
+      "path": "maps/3551310998/textured/274_png_8d59947e.png",
+      "bytes": 27545,
+      "sha256": "76e18c34961cd8734339de007ea874a64463ee9db2a73a5f2d0479effec653b5"
+    },
+    {
+      "path": "maps/3551310998/textured/2_color_tga_3c23d2b8.png",
+      "bytes": 4313,
+      "sha256": "800510ebbc1c91f3a128838ae7ec67e5c003cf2893c914022f0100f8a4e77f6a"
+    },
+    {
+      "path": "maps/3551310998/textured/3_color_tga_7f181e68.png",
+      "bytes": 5150,
+      "sha256": "83c68549f678247963fc39a5631f9ba7438dfca86e59303089c8c194e3afe61e"
+    },
+    {
+      "path": "maps/3551310998/textured/4_color_tga_2b61fe69.png",
+      "bytes": 2749,
+      "sha256": "23d6c0d3cdc5fb964b0b71c61fd3081ac1c96d07385d9726d9cb85d2499063da"
+    },
+    {
+      "path": "maps/3551310998/textured/5_color_tga_b0461925.png",
+      "bytes": 4826,
+      "sha256": "4424f86614cb37ccd8dcc1727a64970fbcc5f246e63d05939c9230a8fa53427d"
+    },
+    {
+      "path": "maps/3551310998/textured/6_color_tga_d7d78886.png",
+      "bytes": 5560,
+      "sha256": "898e48989ecd36ca8d5559153f734353c23b4e8ef869eb9e6a4513bbbb333d21"
+    },
+    {
+      "path": "maps/3551310998/textured/7_color_tga_2f7c298d.png",
+      "bytes": 2822,
+      "sha256": "dbd44ead197a496419bc59c3aa3989dd8ab27228dbda9056838f522a4900f7bd"
+    },
+    {
+      "path": "maps/3551310998/textured/8_color_tga_aa0b12c9.png",
+      "bytes": 5616,
+      "sha256": "e79635a98d1e634791dda6af8d01954f0f3a37a263f174a5cab6765169270b11"
+    },
+    {
+      "path": "maps/3551310998/textured/9_color_tga_5b869d89.png",
+      "bytes": 5664,
+      "sha256": "d1963a5502ed8c318cc5f1a79f6f790c57b7edfbfd1b80cd7aba2c1137e21507"
+    },
+    {
+      "path": "maps/3551310998/textured/antibhop_png_4520f1ec.png",
+      "bytes": 54665,
+      "sha256": "0f0f246e2b35e7fb52d656792e7627a04ce941e88f269601e0567a2f4cf5de8e"
+    },
+    {
+      "path": "maps/3551310998/textured/asperius_png_67a0a978.png",
+      "bytes": 34906,
+      "sha256": "1b80a8ccac33cee4858b5b65e5713d7e7cec32dbdc1211b381cf10988822a3b2"
+    },
+    {
+      "path": "maps/3551310998/textured/concrete_1_04_color_tga_26691d0c.png",
+      "bytes": 295980,
+      "sha256": "a89e92a919c8f13c97a2a7231cc016a0f0e74352aeafd7b271b5d0375b530100"
+    },
+    {
+      "path": "maps/3551310998/textured/concrete_34_color_tga_9323d681.png",
+      "bytes": 273307,
+      "sha256": "aca383113f95d85c302415c8738c411b3b031b006354ed3b2257800fd418ef7a"
+    },
+    {
+      "path": "maps/3551310998/textured/concrete_41_color_tga_d11592a7.png",
+      "bytes": 238865,
+      "sha256": "ef94cee8b601540c49e97422a6bd68c2bed62c779945366186b6cd008ee0be50"
+    },
+    {
+      "path": "maps/3551310998/textured/concrete_42_color_tga_1dd9cad0.png",
+      "bytes": 242609,
+      "sha256": "43a7641c1ecdfb0d441b4682d15d2d06a516467733fdb02e0f8daa294834e49d"
+    },
+    {
+      "path": "maps/3551310998/textured/concrete_flat2_d_color_tga_ec9e9182.png",
+      "bytes": 372571,
+      "sha256": "35cb62cd4754e033f1efa80643299e603a5fe99e4bd005919a2260bbe6fccff3"
+    },
+    {
+      "path": "maps/3551310998/textured/default_ao_tga_559f1ac6_orm_171884568.png",
+      "bytes": 84,
+      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
+    },
+    {
+      "path": "maps/3551310998/textured/default_ao_tga_559f1ac6_orm_2797264562.png",
+      "bytes": 84,
+      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
+    },
+    {
+      "path": "maps/3551310998/textured/default_ao_tga_559f1ac6_orm_489536547.png",
+      "bytes": 84,
+      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
+    },
+    {
+      "path": "maps/3551310998/textured/default_ao_tga_559f1ac6_orm_710891620.png",
+      "bytes": 84,
+      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
+    },
+    {
+      "path": "maps/3551310998/textured/default_ao_tga_559f1ac6_orm_717174672.png",
+      "bytes": 84,
+      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
+    },
+    {
+      "path": "maps/3551310998/textured/default_color_tga_72dcfbfd.png",
+      "bytes": 84,
+      "sha256": "b066bfa0b1fde92f3037a547f86f1d46f88b41a6948b9be9464caf504c6862e1"
+    },
+    {
+      "path": "maps/3551310998/textured/default_normal_tga_7652cb.png",
+      "bytes": 86,
+      "sha256": "804b5abdfa32839c83d213d650c41422f2890d8b686b7cf5e63b70282037dbf9"
+    },
+    {
+      "path": "maps/3551310998/textured/default_normal_tga_7be39f77.png",
+      "bytes": 84,
+      "sha256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c"
+    },
+    {
+      "path": "maps/3551310998/textured/default_normal_tga_b3f4ec4c_orm_3598707198.png",
+      "bytes": 84,
+      "sha256": "d6c61241bbeca655b92f3b26d627b7ae3a1b13dd6967de0fbd533987ff1a0e14"
+    },
+    {
+      "path": "maps/3551310998/textured/exultation_png_6922e5d1.png",
+      "bytes": 56795,
+      "sha256": "207498097c6d8eb24a75d97fe04ed8228d0d18ea4a4fe7ee10eaf69b3dbaee01"
+    },
+    {
+      "path": "maps/3551310998/textured/glass02_vmat_g_tnormal_png_1fcc4195.png",
+      "bytes": 84,
+      "sha256": "0b6926642d0e38213cd31659c3cbd7644ae753c052e57ae00db6de72c99e68db"
+    },
+    {
+      "path": "maps/3551310998/textured/graffiti_venice_05_color_psd_171acfe6.png",
+      "bytes": 25083,
+      "sha256": "874ef461fbaf78d2b10d1a02a155a28a913706112093b075f1328ebfa4adc9a5"
+    },
+    {
+      "path": "maps/3551310998/textured/gratz_png_b7cc43b1.png",
+      "bytes": 81135,
+      "sha256": "1972bc7d6a5f41617eb8b9ea4af678210875f75db7ef57434a2e5c35f0068adb"
+    },
+    {
+      "path": "maps/3551310998/textured/hr_conc_f_color_tga_dd07788e.png",
+      "bytes": 489825,
+      "sha256": "b99d4c4df4d2d162677c74b4f83e0584e18738f66e590fb612fe2d30e1815153"
+    },
+    {
+      "path": "maps/3551310998/textured/hr_rollup_door_001_ao_psd_61a20258_orm_1224913824.png",
+      "bytes": 8303,
+      "sha256": "cbed813b83533d660355ada31bcadef7ff1e962f4010773913354a2c979c7e75"
+    },
+    {
+      "path": "maps/3551310998/textured/hr_rollup_door_001_color_psd_1214c453.png",
+      "bytes": 1695,
+      "sha256": "27500d4f89a96a9272976a1c0c25f915aee170e6f2bcf27860725e936dfe9c97"
+    },
+    {
+      "path": "maps/3551310998/textured/hr_rollup_door_001_normals_normal_psd_1bb527c1.png",
+      "bytes": 2339,
+      "sha256": "24adcbf85a7978af3c320cec8de3c6398309b3b0fbf4cf27b88a61782866d3fc"
+    },
+    {
+      "path": "maps/3551310998/textured/kiwiexultationspawn_png_3e749202.png",
+      "bytes": 60079,
+      "sha256": "3e118a2571a7dd71b635253332fe08fd3ee59eb0d475e87652f2e58c0b593d22"
+    },
+    {
+      "path": "maps/3551310998/textured/kiwiexultation_png_8b406562.png",
+      "bytes": 28594,
+      "sha256": "d3e32093c960b214dfdd6918a738716f7458acb47ab6040336a66e4c33217f28"
+    },
+    {
+      "path": "maps/3551310998/textured/kiwistatue_vmat_g_tcolor_64dfd14c.png",
+      "bytes": 84,
+      "sha256": "956c98044d59cd43b5e76e8c9925ba5a056f808fedaee30cebf43ff760f09f7b"
+    },
+    {
+      "path": "maps/3551310998/textured/kiwi_png_9452bd29.png",
+      "bytes": 31803,
+      "sha256": "49e68c871ddf014ed44f3a096f46d524b2d772f3e70e1ce0aac58b6e28fcdd55"
+    },
+    {
+      "path": "maps/3551310998/textured/kzbutton_2_normal_tga_8afcaa4.png",
+      "bytes": 87397,
+      "sha256": "429ad0b6c4b6d60aa4f146eb4f931a4c143c6f4bb165cfa96dd9a2afaf8619a8"
+    },
+    {
+      "path": "maps/3551310998/textured/kzbutton_diffuse_color_tga_b1721f42.png",
+      "bytes": 85268,
+      "sha256": "1baad428fca7165259efa1684d7604c72f3db3c6b77e9b12a5ae62fa2b9eb48a"
+    },
+    {
+      "path": "maps/3551310998/textured/light_security2_color_tga_210aedde.png",
+      "bytes": 73308,
+      "sha256": "63977ba732bd1cd862f78f58409ee2453b7b013c134dd53e9009431ef8886cfe"
+    },
+    {
+      "path": "maps/3551310998/textured/light_security_color_tga_e83ef113.png",
+      "bytes": 10837,
+      "sha256": "daff99ed87f0c974696cff021a07b3d9f7bfa6a8aa542e82585acd2522c23a70"
+    },
+    {
+      "path": "maps/3551310998/textured/light_security_selfillum_tga_c115fa21.png",
+      "bytes": 449,
+      "sha256": "a897e27b6b34655d5cd913f4a2766afb06d79e8861a33420b5c96e804a2986a1"
+    },
+    {
+      "path": "maps/3551310998/textured/ljroom_png_14e2754d.png",
+      "bytes": 38327,
+      "sha256": "685db167deb51016f1c7c2d8d651083e55bef801995e7ee4c4f3963d9b57e9d3"
+    },
+    {
+      "path": "maps/3551310998/textured/map.glb",
+      "bytes": 12614648,
+      "sha256": "35f21268c6986ae200dfb7320cb1122462cd74616a384df0515024114a09b0a1"
+    },
+    {
+      "path": "maps/3551310998/textured/metal_ladder_001_ao_psd_3da6a2db_orm_2558170656.png",
+      "bytes": 68030,
+      "sha256": "480d3b81cb48da7180946c9dfc4a8026cbdac821ed9ec710ebeecc1ae517f815"
+    },
+    {
+      "path": "maps/3551310998/textured/metal_ladder_001_color_psd_44aa025.png",
+      "bytes": 894282,
+      "sha256": "26c4ed31107138e8530c0362b1892ea59a5993ff8b44d5e8cfda875e4256a200"
+    },
+    {
+      "path": "maps/3551310998/textured/metal_ladder_001_painted_normal_psd_7ad4e8d.png",
+      "bytes": 1154589,
+      "sha256": "1ec88e012b0bc4aba64484ce4159267d440db611926ac340b9a6cc0443e9b1de"
+    },
+    {
+      "path": "maps/3551310998/textured/multi_png_ac0dd3f2.png",
+      "bytes": 26459,
+      "sha256": "bbe01915f482f356a0f31fd4e46f13b91f59d05293d70dcc9016ccd0c1c2d70e"
+    },
+    {
+      "path": "maps/3551310998/textured/navajored_color_tga_8678cf3d.png",
+      "bytes": 158791,
+      "sha256": "973aec5c17d980ceec42e724f365bbac13ca557e2c6b51e6d3a4b04538850937"
+    },
+    {
+      "path": "maps/3551310998/textured/nihil_png_ab75884f.png",
+      "bytes": 83484,
+      "sha256": "d380a905c6ac6994d023f68283ac7c2b7f0a75135c003c524ad433f1efe7d5a4"
+    },
+    {
+      "path": "maps/3551310998/textured/nojump_png_4d3db5d.png",
+      "bytes": 40271,
+      "sha256": "5ea80b0e2b535193a0ce6695963afe1d77b84915b61a6a36bb98b5ae726f0d3d"
+    },
+    {
+      "path": "maps/3551310998/textured/nuke_bell_light_ao_psd_9febaea7_orm_3858264603.png",
+      "bytes": 45138,
+      "sha256": "7cfe2f28d4e311dec10e2d10df4a3e3bf402c680e01df5e84d529ca933e9145b"
+    },
+    {
+      "path": "maps/3551310998/textured/nuke_bell_light_color_psd_a6c5a42c.png",
+      "bytes": 234778,
+      "sha256": "097389a717b72ee987c319ee9a1189b80427578c2332896a81634d2c9c82e318"
+    },
+    {
+      "path": "maps/3551310998/textured/nuke_bell_light_color_selfillum_tga_cbf1cc2e.png",
+      "bytes": 43008,
+      "sha256": "00f44062f3d92f46357c5263e8268fe6dc3aa2dc614df5a95262f57b104168fe"
+    },
+    {
+      "path": "maps/3551310998/textured/nuke_bell_light_rough_psd_9685f41d.png",
+      "bytes": 1892,
+      "sha256": "00326f0de7d0fdd49139f281dc6f2b46afeb90d37ff8e6221e3ad192489b085d"
+    },
+    {
+      "path": "maps/3551310998/textured/plaster_blue1_diffuse_color_psd_c3bb4227.png",
+      "bytes": 1265383,
+      "sha256": "915e2504b4abd1cba7c4171aac60d48f72b246de30824a87072b150d908d0f08"
+    },
+    {
+      "path": "maps/3551310998/textured/qennu_png_29b862c1.png",
+      "bytes": 33653,
+      "sha256": "0516a33e76fc738a748ae13709e0891abbd65392fd971d852b98969f8f5b93b3"
+    },
+    {
+      "path": "maps/3551310998/textured/reflectivity_30b_color_tga_d341b8aa.png",
+      "bytes": 603,
+      "sha256": "e33bb6a8682f0ce9677d7c69d97665f12faedd4ac1a4687330baa1787b89230f"
+    },
+    {
+      "path": "maps/3551310998/textured/reflectivity_40b_color_tga_2dff13d8.png",
+      "bytes": 690,
+      "sha256": "6540928f936650255b75355e03ea86ad571ec74c4948ead9b2b1fb706846b254"
+    },
+    {
+      "path": "maps/3551310998/textured/reflectivity_70b_color_tga_256803a7.png",
+      "bytes": 844,
+      "sha256": "cd6fe22c9b7905d87cdf08b5bb758f613ac4a7f5aea34606651beb14db102d9c"
+    },
+    {
+      "path": "maps/3551310998/textured/reiska_png_a4cd3454.png",
+      "bytes": 52938,
+      "sha256": "9b50585c9b790f33c14030d0a6d00717dd291721a1de30a4d56c71108c518cc2"
+    },
+    {
+      "path": "maps/3551310998/textured/single_png_7dd021b0.png",
+      "bytes": 45851,
+      "sha256": "09bf9a65deec700f72a5fe72f3c71f62fa65c3237dfab449b977b29b501c6599"
+    },
+    {
+      "path": "maps/3551310998/textured/spawn_png_8d14f37c.png",
+      "bytes": 43903,
+      "sha256": "d3766680fe138a416da29ceb803ed45a3adea8cc86e4210a732eddde0fa9e077"
+    },
+    {
+      "path": "maps/3551310998/textured/start_png_f565204d.png",
+      "bytes": 37402,
+      "sha256": "517e99e9097cf581ba28149f571e833f4a80f76f93de1b301f5f6254f251e55b"
+    },
+    {
+      "path": "maps/3551310998/textured/templegreen_color_tga_ba7d369d.png",
+      "bytes": 210644,
+      "sha256": "19bdcb219092940c3e158bf0f8f859b958dfee3414ce1943c730e03fca91ec48"
+    },
+    {
+      "path": "maps/3551310998/textured/white_rough_tga_8b903d9c.png",
+      "bytes": 102,
+      "sha256": "f42b44ae90d1e1bc69f2db38e50059d347aac112a4f872350892a4da86a75960"
+    },
+    {
+      "path": "maps/3551310998/textured/white_vmat_g_tcolor_64dfd14c.png",
+      "bytes": 84,
+      "sha256": "956c98044d59cd43b5e76e8c9925ba5a056f808fedaee30cebf43ff760f09f7b"
+    },
+    {
+      "path": "maps/3551310998/textured/woodfloor_01_light_color_tga_3981db76.png",
+      "bytes": 292984,
+      "sha256": "9aefa3e6ba7a19fc002c4d5a4bdbaf2909da804525db4ba152a9286cdf0c90b8"
+    },
+    {
+      "path": "maps/3551310998/transports.json",
+      "bytes": 56295,
+      "sha256": "f3e3c3530d54a0329880fb81d00443d274429b5a8ce67bf669c9eb40c073198e"
+    },
+    {
+      "path": "maps/collision.bin",
+      "bytes": 152856,
+      "sha256": "38e84675fb9c491a1d22bccdca4c79579a877b694a6171143c400cd47b11fdeb"
+    },
+    {
+      "path": "maps/gameplay.json",
+      "bytes": 3137,
+      "sha256": "c9a4b62d735695ea767df6aba2bbb2f900107e1bb84965927cc666bc18edf824"
+    },
+    {
+      "path": "maps/key-collect.wav",
+      "bytes": 24740,
+      "sha256": "6319a9807adef2b0251eb849783baa4d114d6fb94e43317bf618efda247e61ba"
+    },
+    {
+      "path": "maps/ladders.bin",
+      "bytes": 1728,
+      "sha256": "7968896699780dd68367947276e4c4c94cbe7df5596c7884dee0e25a9fab985a"
+    },
+    {
+      "path": "maps/lightweight/ancient_lighting_lantern_01_ao_tga_d73d5a7f_orm_2405039119.webp",
+      "bytes": 307066,
+      "sha256": "85c9b3603d8cbdf001af81ec2629f0a544722d418015053f6499f6d470b1dede"
+    },
+    {
+      "path": "maps/lightweight/ancient_lighting_lantern_01_lit_color_tga_c5096b7a.webp",
+      "bytes": 127884,
+      "sha256": "6f2c048061cdb62503cdc81864c8719b97d7142f4d41316a8fda692604d3f2c2"
+    },
+    {
+      "path": "maps/lightweight/ancient_lighting_lantern_01_lit_illum_tga_951dd40d.webp",
+      "bytes": 48506,
+      "sha256": "a95ded9c85efbcedfe059d5ba6f6aaf6be11e156a5298c60bf5c1cd9ff14a451"
+    },
+    {
+      "path": "maps/lightweight/ancient_lighting_lantern_01_normal_tga_bb44d024.webp",
+      "bytes": 510870,
+      "sha256": "529914d157a87c2bb1c40137808dfa02a9065194fc7e7652f442fd2c68de7456"
+    },
+    {
+      "path": "maps/lightweight/aztec_lighting_candle_flame_01_color_mks_c88ae9ea.webp",
+      "bytes": 9046,
+      "sha256": "5617cd1ae60429c6e001b14b40e2865a378777c5bf332ef06bb37db926b4b5dc"
+    },
+    {
+      "path": "maps/lightweight/aztec_lighting_candle_flame_01_vmat_g_tnormal_53b47c48.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/aztec_lighting_candle_flame_01_vmat_g_tselfillummask_ff155607.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/lightweight/black_vmat_g_tcolor1_cc87d5c7.webp",
+      "bytes": 44,
+      "sha256": "e68bb6828d842a6c845223b2966aef7c28134491c003f940020e17ee8b06391d"
+    },
+    {
+      "path": "maps/lightweight/black_vmat_g_tnormal1_53b47c48.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/concrete1_diffuseoriginal_png_4f424c3f.webp",
+      "bytes": 18600,
+      "sha256": "85b28073757704c152a2b7826255da1df24301bf6f6c3a0e3c81f917d896d7fc"
+    },
+    {
+      "path": "maps/lightweight/concrete1_normal_png_82dd3567.webp",
+      "bytes": 41866,
+      "sha256": "eca403c960f5b5b85ca307ed8452496c65d1d15d2f044e96b28adfe145ab252c"
+    },
+    {
+      "path": "maps/lightweight/default_ao_tga_559f1ac6_orm_1717730434.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/lightweight/default_ao_tga_559f1ac6_orm_171884568.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/lightweight/default_normal_tga_7be39f77.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/default_normal_tga_7be61377.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/door01_color_psd_248dc662.webp",
+      "bytes": 151180,
+      "sha256": "c001f035ea249a6861822fd657d4daac8be6764a7772f7fedd6f580f26a2a78f"
+    },
+    {
+      "path": "maps/lightweight/door01_nrm_normal_tga_8b295afa.webp",
+      "bytes": 454114,
+      "sha256": "e5831a035394ce0c28f90a2fc650720e62985d9ccffdf02d51972639cfcb19ff"
+    },
+    {
+      "path": "maps/lightweight/door01_vmat_g_tmetalness_ee87d4b4_orm_327683158.webp",
+      "bytes": 36,
+      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
+    },
+    {
+      "path": "maps/lightweight/egpwall1_tga_59e54dd0.webp",
+      "bytes": 44506,
+      "sha256": "9185c683bd0adb42359da8f7bfb2ad22c00cdb7ebd6884ea340b4c838d473c44"
+    },
+    {
+      "path": "maps/lightweight/egpwall1_vmat_g_tnormal_99c6f5c1.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/gradient_end_vmat_g_tselfillummask_ff155607.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/lightweight/gradient_png_1a7e881a.webp",
+      "bytes": 178,
+      "sha256": "66271090d2f7564035a9619e20fee1dc6a788103dc145e296bb5fa50de0cb34f"
+    },
+    {
+      "path": "maps/lightweight/gradient_start_vmat_g_tselfillummask_ff155607.webp",
+      "bytes": 44,
+      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
+    },
+    {
+      "path": "maps/lightweight/hr_stone_ground01_ao_psd_e6e880c2_orm_2270001557.webp",
+      "bytes": 67214,
+      "sha256": "722be40061a083c14892a66ca25032de0740b0d33d1b2be51fd1e8b8cfe0d486"
+    },
+    {
+      "path": "maps/lightweight/hr_stone_ground01_color_psd_9cc7c4d5.webp",
+      "bytes": 70172,
+      "sha256": "8f635fdede9c47db8dcd5342566d97755c196ea18cbc9e7a36a4cffee91fac9b"
+    },
+    {
+      "path": "maps/lightweight/hr_stone_ground03b_color_psd_82a9c01e.webp",
+      "bytes": 244196,
+      "sha256": "3aa603796d910f708184bace6d3db9567c0ee8a8c26498ad3699f3de970f9de4"
+    },
+    {
+      "path": "maps/lightweight/ladderwood_color_psd_3d487f52.webp",
+      "bytes": 56702,
+      "sha256": "f8491b71517498ddcdc7ea53763cdccb8f07be4c459ad29e712e65cfac94047d"
+    },
+    {
+      "path": "maps/lightweight/map.glb",
+      "bytes": 1788504,
+      "sha256": "8f7d3e138f9aa595c61bd2bc31c917627bd111a77b77e65fadf203f87f2d0bf2"
+    },
+    {
+      "path": "maps/lightweight/orange_neon_tga_2c9dfe5d.webp",
+      "bytes": 202,
+      "sha256": "694814130535fb220093c2818e0d47221ca2136513f027ddd2325554d0d53c70"
+    },
+    {
+      "path": "maps/lightweight/orange_neon_tga_998116b8.webp",
+      "bytes": 202,
+      "sha256": "694814130535fb220093c2818e0d47221ca2136513f027ddd2325554d0d53c70"
+    },
+    {
+      "path": "maps/lightweight/orange_neon_vmat_g_tnormal_99c6f5c1.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/retakes_blocker_dynamic_vmat_g_tcolor_e18409d6.webp",
+      "bytes": 70,
+      "sha256": "6f56cb37ca89debe29e9cb892d4d82591f0f428f945e41b3be110d3602734cce"
+    },
+    {
+      "path": "maps/lightweight/rock1_diffuse_png_a23d0794.webp",
+      "bytes": 385852,
+      "sha256": "5ff2acfeba3ca0e1bf0ac324073b03320baa558c52b699594e5312d0000d5386"
+    },
+    {
+      "path": "maps/lightweight/rock1_normal_png_174275b5.webp",
+      "bytes": 1221572,
+      "sha256": "b8cb935cf20c34a977364af847d4b2d6c9d91bea9061181c2f2a8f3c35de799b"
+    },
+    {
+      "path": "maps/lightweight/sandstone01_color_tga_ea7c8402.webp",
+      "bytes": 105758,
+      "sha256": "a0563211fd50de9acae5571144fcd59b02fd0fac90306a349fcff05409b1c64e"
+    },
+    {
+      "path": "maps/lightweight/sandstone_wall01_color_png_8f35264c.webp",
+      "bytes": 171726,
+      "sha256": "4951075a0782e566dc015828ca49b010c2e6eb9636d23583e39bff6bb27990ea"
+    },
+    {
+      "path": "maps/lightweight/sandstone_wall01_color_psd_f94ca08e.webp",
+      "bytes": 173204,
+      "sha256": "4d3ed268fc3f253d80ae922a1d1c750f64ec2dfccf28b68dfa8898a2e851ae0d"
+    },
+    {
+      "path": "maps/lightweight/sandstone_wall03_color_tga_607bc8b4.webp",
+      "bytes": 298288,
+      "sha256": "c690280aa4334f598e71f456375a3fc1f499be81903f4c12d51261915aad9e78"
+    },
+    {
+      "path": "maps/lightweight/stone_floor01_color_tga_3dd7d4f9.webp",
+      "bytes": 107726,
+      "sha256": "370b7866c536e89fc40f993b4073a0a15e65ee94614ac71dec7c6012ca5fd5c1"
+    },
+    {
+      "path": "maps/lightweight/tombwall1_tga_7f7858c6.webp",
+      "bytes": 35768,
+      "sha256": "93e2dad8a55fc77c79d13379518464ee8217afe27e210fb310c5a00d7ec9b317"
+    },
+    {
+      "path": "maps/lightweight/tombwall1_vmat_g_tnormal_99c6f5c1.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/wall1a_diffuse_png_1653d5a8.webp",
+      "bytes": 343714,
+      "sha256": "0a7256030906c5c0fda078bb1ac579ac07c7a65bb7ac7232a12caba45b769ae7"
+    },
+    {
+      "path": "maps/lightweight/wall1a_normal_png_326215b7.webp",
+      "bytes": 1753490,
+      "sha256": "30124e7c37cdd6e8b375d2fcd8fae294d6f3a2af75b3e0b2e47d1fd54ef2ff06"
+    },
+    {
+      "path": "maps/lightweight/wall1b_diffuse_png_35827abf.webp",
+      "bytes": 402142,
+      "sha256": "07208f309c53b9e5013fbd4ddb55458696a63c5ebce5327d4f6cee91e63debaa"
+    },
+    {
+      "path": "maps/lightweight/wall1b_normal_png_c16a92a3.webp",
+      "bytes": 1783390,
+      "sha256": "5ad172c5447df597f0bb2b2f86875553ed052ede64724e799b144e0811efd604"
+    },
+    {
+      "path": "maps/lightweight/wall2a_diffuse_png_9ae140.webp",
+      "bytes": 359292,
+      "sha256": "cefc4a4b8e627097dd155216d8e2bbab10017ae9378657483b50959712aa869e"
+    },
+    {
+      "path": "maps/lightweight/wall2a_normal_png_1fabce93.webp",
+      "bytes": 1723026,
+      "sha256": "9ac11f63cb93004734e9912c0b06b6566edbe688f2fd933fa149b38abac19532"
+    },
+    {
+      "path": "maps/lightweight/wall2b_diffuse_png_72a43cb6.webp",
+      "bytes": 359326,
+      "sha256": "e769b14526e744a46ec0905fe02a6433872bd01e60d291a2c3be585f1c29ed6e"
+    },
+    {
+      "path": "maps/lightweight/wall2b_normal_png_bfdd006b.webp",
+      "bytes": 1710762,
+      "sha256": "46f73d67e8c061094fcd06f23e2d31b3a5fae9dfea86dcb327aaf032fd669ae3"
+    },
+    {
+      "path": "maps/lightweight/wall3a_diffuse_png_4f554081.webp",
+      "bytes": 306444,
+      "sha256": "893b65e0d0e517bd0f5c3b49b6b12f9ad8049985346a98c293427808aa1c7bff"
+    },
+    {
+      "path": "maps/lightweight/wall3a_normal_png_42c41a34.webp",
+      "bytes": 1652318,
+      "sha256": "a9accb9b71680c6603608e7076bca9f051a54cefe4a53b042b325ae4d3d39f7a"
+    },
+    {
+      "path": "maps/lightweight/wall3b_diffuse_png_1a69872b.webp",
+      "bytes": 297134,
+      "sha256": "28617ce211ce5a1b620e679b2dcd69c0ce46ca3b1b8fd1e076db2da3cb693f3d"
+    },
+    {
+      "path": "maps/lightweight/wall3b_normal_png_af790e82.webp",
+      "bytes": 1635006,
+      "sha256": "d22ed7d63a45310466a04743914f8ec3e6a30b972cb57e160d4ba60882729cfd"
+    },
+    {
+      "path": "maps/lightweight/wall4a_diffuse_png_45534cc7.webp",
+      "bytes": 311888,
+      "sha256": "b8be2d26fffee539e8e511b04a45047c505ae587f61d90000fdd6c478b9e232d"
+    },
+    {
+      "path": "maps/lightweight/wall4a_normal_png_928f7e8a.webp",
+      "bytes": 973046,
+      "sha256": "f2c5a9c7e795161935a28244f4fd0a3ced8b7645f8dd62a2209b6f63464ce5a4"
+    },
+    {
+      "path": "maps/lightweight/wall4b_diffuse_png_f51b3196.webp",
+      "bytes": 304074,
+      "sha256": "b1e079825aa721b30aacf818f134ab00defc99510f71c9afe7d244d21ca0b709"
+    },
+    {
+      "path": "maps/lightweight/wall4b_normal_png_b8d840de.webp",
+      "bytes": 974972,
+      "sha256": "1a724a86046945e42431a6ba6fd59a931fdc9980082bd5a06ae7ddd2b1c83bb3"
+    },
+    {
+      "path": "maps/lightweight/wall5a_diffuse_png_6bbefd74.webp",
+      "bytes": 142182,
+      "sha256": "b79e42dc048ecb6f4be7a0319ebb0a452cc4b4c604aeafe5f53138f264145251"
+    },
+    {
+      "path": "maps/lightweight/wall5a_normal_png_d1dea16a.webp",
+      "bytes": 443874,
+      "sha256": "0a7e1e499ca9e8ccb9aa5ca246b3c026e33873a0a1f2ae2051a87860c1960313"
+    },
+    {
+      "path": "maps/lightweight/wall5b_diffuse_png_4b559e80.webp",
+      "bytes": 151218,
+      "sha256": "bb652f9af3139cb2f8f6e5854104f0ffac32011ab675100b5d7136e8d400067b"
+    },
+    {
+      "path": "maps/lightweight/wall5b_normal_png_8186f34.webp",
+      "bytes": 450640,
+      "sha256": "922c17488d2ead9378cad6d26b9c7b23cb8f43eac4d1ccee0bc3176bc0e87e00"
+    },
+    {
+      "path": "maps/lightweight/wall5c_diffuse_png_c0d6e09e.webp",
+      "bytes": 156872,
+      "sha256": "36318824d0ab08b131b53b4bd5fbb515da08838d82b0cf21ad2938fb2a940268"
+    },
+    {
+      "path": "maps/lightweight/wall5c_normal_png_c097d30d.webp",
+      "bytes": 463456,
+      "sha256": "4b4ce40245fdb8305c35b3c3eb3676aa08056832a9c1ec5c50104fadb88e2f67"
+    },
+    {
+      "path": "maps/lightweight/wallgods1_tga_bbb929f6.webp",
+      "bytes": 44532,
+      "sha256": "9d426c923c87637b3e5dfdb313344f14047104a63fab2b870a0776e890bd1251"
+    },
+    {
+      "path": "maps/lightweight/wallgods1_vmat_g_tnormal_99c6f5c1.webp",
+      "bytes": 38,
+      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
+    },
+    {
+      "path": "maps/lightweight/wood_trim_plywood_02_color_tga_d9460e3e.webp",
+      "bytes": 168784,
+      "sha256": "39a4d759363b680a65c9d7a04e8527a286e5cfd2817a6b5b2b9b93a9b33bf3e6"
+    },
+    {
+      "path": "maps/lightweight/wood_trim_plywood_02_normal_tga_6b347aa2.webp",
+      "bytes": 906534,
+      "sha256": "f60697750335ec3a89f6ce9aed6fb3c1305e75d0af0c1de6501e5ddac5d97c18"
+    },
+    {
+      "path": "maps/manifest.json",
+      "bytes": 2522,
+      "sha256": "bf7c574022b8612e59875e2fd68b8a741a93eb7d91517f6c859caefc4d793f40"
+    },
+    {
+      "path": "maps/splits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "maps/transports.json",
+      "bytes": 3054,
+      "sha256": "7d604e75afe55edaffc6c65d4ae00c1ed3572aa9dcd344462b5749557307cab8"
+    },
+    {
+      "path": "maps/zone-gradient.png",
+      "bytes": 922,
+      "sha256": "df06507c11b2f079627c6f7aff06dafd8eb7410abecf1ad35d0221bb3341d3b0"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 5404,
+      "sha256": "e6d24f083f747087be81f3a0d21028fed0752501c85b6500b0389db5155190f8"
     },
     {
       "path": "ui/workshop/3104579274.jpg",
@@ -365,384 +1605,9 @@
       "sha256": "d5186eead7eaf988b48253145323f7988a32c8e7bc0375d5756d8f005297d9ea"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/map.glb",
-      "bytes": 12614648,
-      "sha256": "35f21268c6986ae200dfb7320cb1122462cd74616a384df0515024114a09b0a1"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/graffiti_venice_05_color_psd_171acfe6.png",
-      "bytes": 25083,
-      "sha256": "874ef461fbaf78d2b10d1a02a155a28a913706112093b075f1328ebfa4adc9a5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_ao_tga_559f1ac6_orm_171884568.png",
-      "bytes": 84,
-      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/glass02_vmat_g_tnormal_png_1fcc4195.png",
-      "bytes": 84,
-      "sha256": "0b6926642d0e38213cd31659c3cbd7644ae753c052e57ae00db6de72c99e68db"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/reflectivity_70b_color_tga_256803a7.png",
-      "bytes": 844,
-      "sha256": "cd6fe22c9b7905d87cdf08b5bb758f613ac4a7f5aea34606651beb14db102d9c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_normal_tga_7652cb.png",
-      "bytes": 86,
-      "sha256": "804b5abdfa32839c83d213d650c41422f2890d8b686b7cf5e63b70282037dbf9"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_normal_tga_b3f4ec4c_orm_3598707198.png",
-      "bytes": 84,
-      "sha256": "d6c61241bbeca655b92f3b26d627b7ae3a1b13dd6967de0fbd533987ff1a0e14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_color_tga_72dcfbfd.png",
-      "bytes": 84,
-      "sha256": "b066bfa0b1fde92f3037a547f86f1d46f88b41a6948b9be9464caf504c6862e1"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/ljroom_png_14e2754d.png",
-      "bytes": 38327,
-      "sha256": "685db167deb51016f1c7c2d8d651083e55bef801995e7ee4c4f3963d9b57e9d3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/8_color_tga_aa0b12c9.png",
-      "bytes": 5616,
-      "sha256": "e79635a98d1e634791dda6af8d01954f0f3a37a263f174a5cab6765169270b11"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/7_color_tga_2f7c298d.png",
-      "bytes": 2822,
-      "sha256": "dbd44ead197a496419bc59c3aa3989dd8ab27228dbda9056838f522a4900f7bd"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/6_color_tga_d7d78886.png",
-      "bytes": 5560,
-      "sha256": "898e48989ecd36ca8d5559153f734353c23b4e8ef869eb9e6a4513bbbb333d21"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/5_color_tga_b0461925.png",
-      "bytes": 4826,
-      "sha256": "4424f86614cb37ccd8dcc1727a64970fbcc5f246e63d05939c9230a8fa53427d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/4_color_tga_2b61fe69.png",
-      "bytes": 2749,
-      "sha256": "23d6c0d3cdc5fb964b0b71c61fd3081ac1c96d07385d9726d9cb85d2499063da"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/3_color_tga_7f181e68.png",
-      "bytes": 5150,
-      "sha256": "83c68549f678247963fc39a5631f9ba7438dfca86e59303089c8c194e3afe61e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/2_color_tga_3c23d2b8.png",
-      "bytes": 4313,
-      "sha256": "800510ebbc1c91f3a128838ae7ec67e5c003cf2893c914022f0100f8a4e77f6a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/1_color_png_493bb967.png",
-      "bytes": 1823,
-      "sha256": "3e168c5e82fb091aeea92464567cf397fd968465c8f619cde4335a442e5214eb"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/0_color_tga_6cdeba3b.png",
-      "bytes": 4845,
-      "sha256": "e477371087256c75d5e9f4d4aecb58d063c988ab49afda9db639960ca7709b58"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/qennu_png_29b862c1.png",
-      "bytes": 33653,
-      "sha256": "0516a33e76fc738a748ae13709e0891abbd65392fd971d852b98969f8f5b93b3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/spawn_png_8d14f37c.png",
-      "bytes": 43903,
-      "sha256": "d3766680fe138a416da29ceb803ed45a3adea8cc86e4210a732eddde0fa9e077"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/9_color_tga_5b869d89.png",
-      "bytes": 5664,
-      "sha256": "d1963a5502ed8c318cc5f1a79f6f790c57b7edfbfd1b80cd7aba2c1137e21507"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/nojump_png_4d3db5d.png",
-      "bytes": 40271,
-      "sha256": "5ea80b0e2b535193a0ce6695963afe1d77b84915b61a6a36bb98b5ae726f0d3d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/multi_png_ac0dd3f2.png",
-      "bytes": 26459,
-      "sha256": "bbe01915f482f356a0f31fd4e46f13b91f59d05293d70dcc9016ccd0c1c2d70e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/single_png_7dd021b0.png",
-      "bytes": 45851,
-      "sha256": "09bf9a65deec700f72a5fe72f3c71f62fa65c3237dfab449b977b29b501c6599"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/antibhop_png_4520f1ec.png",
-      "bytes": 54665,
-      "sha256": "0f0f246e2b35e7fb52d656792e7627a04ce941e88f269601e0567a2f4cf5de8e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/start_png_f565204d.png",
-      "bytes": 37402,
-      "sha256": "517e99e9097cf581ba28149f571e833f4a80f76f93de1b301f5f6254f251e55b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/exultation_png_6922e5d1.png",
-      "bytes": 56795,
-      "sha256": "207498097c6d8eb24a75d97fe04ed8228d0d18ea4a4fe7ee10eaf69b3dbaee01"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/kiwi_png_9452bd29.png",
-      "bytes": 31803,
-      "sha256": "49e68c871ddf014ed44f3a096f46d524b2d772f3e70e1ce0aac58b6e28fcdd55"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/kiwiexultationspawn_png_3e749202.png",
-      "bytes": 60079,
-      "sha256": "3e118a2571a7dd71b635253332fe08fd3ee59eb0d475e87652f2e58c0b593d22"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/kiwiexultation_png_8b406562.png",
-      "bytes": 28594,
-      "sha256": "d3e32093c960b214dfdd6918a738716f7458acb47ab6040336a66e4c33217f28"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/274_png_8d59947e.png",
-      "bytes": 27545,
-      "sha256": "76e18c34961cd8734339de007ea874a64463ee9db2a73a5f2d0479effec653b5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/reiska_png_a4cd3454.png",
-      "bytes": 52938,
-      "sha256": "9b50585c9b790f33c14030d0a6d00717dd291721a1de30a4d56c71108c518cc2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/asperius_png_67a0a978.png",
-      "bytes": 34906,
-      "sha256": "1b80a8ccac33cee4858b5b65e5713d7e7cec32dbdc1211b381cf10988822a3b2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/nihil_png_ab75884f.png",
-      "bytes": 83484,
-      "sha256": "d380a905c6ac6994d023f68283ac7c2b7f0a75135c003c524ad433f1efe7d5a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/gratz_png_b7cc43b1.png",
-      "bytes": 81135,
-      "sha256": "1972bc7d6a5f41617eb8b9ea4af678210875f75db7ef57434a2e5c35f0068adb"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/concrete_1_04_color_tga_26691d0c.png",
-      "bytes": 295980,
-      "sha256": "a89e92a919c8f13c97a2a7231cc016a0f0e74352aeafd7b271b5d0375b530100"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/concrete_34_color_tga_9323d681.png",
-      "bytes": 273307,
-      "sha256": "aca383113f95d85c302415c8738c411b3b031b006354ed3b2257800fd418ef7a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/concrete_41_color_tga_d11592a7.png",
-      "bytes": 238865,
-      "sha256": "ef94cee8b601540c49e97422a6bd68c2bed62c779945366186b6cd008ee0be50"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/concrete_42_color_tga_1dd9cad0.png",
-      "bytes": 242609,
-      "sha256": "43a7641c1ecdfb0d441b4682d15d2d06a516467733fdb02e0f8daa294834e49d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/concrete_flat2_d_color_tga_ec9e9182.png",
-      "bytes": 372571,
-      "sha256": "35cb62cd4754e033f1efa80643299e603a5fe99e4bd005919a2260bbe6fccff3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/plaster_blue1_diffuse_color_psd_c3bb4227.png",
-      "bytes": 1265383,
-      "sha256": "915e2504b4abd1cba7c4171aac60d48f72b246de30824a87072b150d908d0f08"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/hr_conc_f_color_tga_dd07788e.png",
-      "bytes": 489825,
-      "sha256": "b99d4c4df4d2d162677c74b4f83e0584e18738f66e590fb612fe2d30e1815153"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/kiwistatue_vmat_g_tcolor_64dfd14c.png",
-      "bytes": 84,
-      "sha256": "956c98044d59cd43b5e76e8c9925ba5a056f808fedaee30cebf43ff760f09f7b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/white_rough_tga_8b903d9c.png",
-      "bytes": 102,
-      "sha256": "f42b44ae90d1e1bc69f2db38e50059d347aac112a4f872350892a4da86a75960"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_ao_tga_559f1ac6_orm_489536547.png",
-      "bytes": 84,
-      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/kzbutton_diffuse_color_tga_b1721f42.png",
-      "bytes": 85268,
-      "sha256": "1baad428fca7165259efa1684d7604c72f3db3c6b77e9b12a5ae62fa2b9eb48a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/kzbutton_2_normal_tga_8afcaa4.png",
-      "bytes": 87397,
-      "sha256": "429ad0b6c4b6d60aa4f146eb4f931a4c143c6f4bb165cfa96dd9a2afaf8619a8"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_ao_tga_559f1ac6_orm_717174672.png",
-      "bytes": 84,
-      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/light_security2_color_tga_210aedde.png",
-      "bytes": 73308,
-      "sha256": "63977ba732bd1cd862f78f58409ee2453b7b013c134dd53e9009431ef8886cfe"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_normal_tga_7be39f77.png",
-      "bytes": 84,
-      "sha256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_ao_tga_559f1ac6_orm_2797264562.png",
-      "bytes": 84,
-      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/light_security_color_tga_e83ef113.png",
-      "bytes": 10837,
-      "sha256": "daff99ed87f0c974696cff021a07b3d9f7bfa6a8aa542e82585acd2522c23a70"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/light_security_selfillum_tga_c115fa21.png",
-      "bytes": 449,
-      "sha256": "a897e27b6b34655d5cd913f4a2766afb06d79e8861a33420b5c96e804a2986a1"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/default_ao_tga_559f1ac6_orm_710891620.png",
-      "bytes": 84,
-      "sha256": "9b6cf61b62f31e2319a52dc904c578ff36b565c9d101b5bfbad96a0ab6dbf0a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/metal_ladder_001_color_psd_44aa025.png",
-      "bytes": 894282,
-      "sha256": "26c4ed31107138e8530c0362b1892ea59a5993ff8b44d5e8cfda875e4256a200"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/metal_ladder_001_painted_normal_psd_7ad4e8d.png",
-      "bytes": 1154589,
-      "sha256": "1ec88e012b0bc4aba64484ce4159267d440db611926ac340b9a6cc0443e9b1de"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/metal_ladder_001_ao_psd_3da6a2db_orm_2558170656.png",
-      "bytes": 68030,
-      "sha256": "480d3b81cb48da7180946c9dfc4a8026cbdac821ed9ec710ebeecc1ae517f815"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/navajored_color_tga_8678cf3d.png",
-      "bytes": 158791,
-      "sha256": "973aec5c17d980ceec42e724f365bbac13ca557e2c6b51e6d3a4b04538850937"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/nuke_bell_light_color_psd_a6c5a42c.png",
-      "bytes": 234778,
-      "sha256": "097389a717b72ee987c319ee9a1189b80427578c2332896a81634d2c9c82e318"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/nuke_bell_light_rough_psd_9685f41d.png",
-      "bytes": 1892,
-      "sha256": "00326f0de7d0fdd49139f281dc6f2b46afeb90d37ff8e6221e3ad192489b085d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/nuke_bell_light_color_selfillum_tga_cbf1cc2e.png",
-      "bytes": 43008,
-      "sha256": "00f44062f3d92f46357c5263e8268fe6dc3aa2dc614df5a95262f57b104168fe"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/nuke_bell_light_ao_psd_9febaea7_orm_3858264603.png",
-      "bytes": 45138,
-      "sha256": "7cfe2f28d4e311dec10e2d10df4a3e3bf402c680e01df5e84d529ca933e9145b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/reflectivity_30b_color_tga_d341b8aa.png",
-      "bytes": 603,
-      "sha256": "e33bb6a8682f0ce9677d7c69d97665f12faedd4ac1a4687330baa1787b89230f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/reflectivity_40b_color_tga_2dff13d8.png",
-      "bytes": 690,
-      "sha256": "6540928f936650255b75355e03ea86ad571ec74c4948ead9b2b1fb706846b254"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/hr_rollup_door_001_color_psd_1214c453.png",
-      "bytes": 1695,
-      "sha256": "27500d4f89a96a9272976a1c0c25f915aee170e6f2bcf27860725e936dfe9c97"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/hr_rollup_door_001_normals_normal_psd_1bb527c1.png",
-      "bytes": 2339,
-      "sha256": "24adcbf85a7978af3c320cec8de3c6398309b3b0fbf4cf27b88a61782866d3fc"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/hr_rollup_door_001_ao_psd_61a20258_orm_1224913824.png",
-      "bytes": 8303,
-      "sha256": "cbed813b83533d660355ada31bcadef7ff1e962f4010773913354a2c979c7e75"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/templegreen_color_tga_ba7d369d.png",
-      "bytes": 210644,
-      "sha256": "19bdcb219092940c3e158bf0f8f859b958dfee3414ce1943c730e03fca91ec48"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/white_vmat_g_tcolor_64dfd14c.png",
-      "bytes": 84,
-      "sha256": "956c98044d59cd43b5e76e8c9925ba5a056f808fedaee30cebf43ff760f09f7b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/textured/woodfloor_01_light_color_tga_3981db76.png",
-      "bytes": 292984,
-      "sha256": "9aefa3e6ba7a19fc002c4d5a4bdbaf2909da804525db4ba152a9286cdf0c90b8"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/manifest.json",
-      "bytes": 2915,
-      "sha256": "e7b4d758a0b18deca1bebd10f2f66176e9034135d5da4c8e9cb69bbc43158dae"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/gameplay.json",
-      "bytes": 2522,
-      "sha256": "5cb8a7a70f4fe14cce7395c5c219919bf75a28c44b922dfccb22118e4691ae0a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/transports.json",
-      "bytes": 56295,
-      "sha256": "f3e3c3530d54a0329880fb81d00443d274429b5a8ce67bf669c9eb40c073198e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/splits.json",
-      "bytes": 2,
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/collision.bin",
-      "bytes": 783504,
-      "sha256": "c608c09a977af2681fcfec589e5c3746982c9cd1bd0e0664cc97288dae3756cd"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3551310998/ladders.bin",
-      "bytes": 12132,
-      "sha256": "32eb2bb5f3cd81609436547870545dbb11cbe08f5948eb6f9ca81d5b828941d2"
+      "path": "ui/workshop/3366047597.jpg",
+      "bytes": 33215,
+      "sha256": "8388f89bed081ce6e12c83dae84290e69236072a992bba3025eeffde6230f00d"
     },
     {
       "path": "ui/workshop/3551310998.jpg",
@@ -750,801 +1615,10 @@
       "sha256": "0d2a2391686e7e492e1f4caf41823fdfa38388f977cde69818ab31c5fefcf29a"
     },
     {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/map.glb",
-      "bytes": 1788504,
-      "sha256": "8f7d3e138f9aa595c61bd2bc31c917627bd111a77b77e65fadf203f87f2d0bf2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/aztec_lighting_candle_flame_01_color_mks_c88ae9ea.webp",
-      "bytes": 9046,
-      "sha256": "5617cd1ae60429c6e001b14b40e2865a378777c5bf332ef06bb37db926b4b5dc"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/aztec_lighting_candle_flame_01_vmat_g_tnormal_53b47c48.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/aztec_lighting_candle_flame_01_vmat_g_tselfillummask_ff155607.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/default_ao_tga_559f1ac6_orm_171884568.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/gradient_png_1a7e881a.webp",
-      "bytes": 178,
-      "sha256": "66271090d2f7564035a9619e20fee1dc6a788103dc145e296bb5fa50de0cb34f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/default_normal_tga_7be61377.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/gradient_start_vmat_g_tselfillummask_ff155607.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/gradient_end_vmat_g_tselfillummask_ff155607.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/black_vmat_g_tcolor1_cc87d5c7.webp",
-      "bytes": 44,
-      "sha256": "e68bb6828d842a6c845223b2966aef7c28134491c003f940020e17ee8b06391d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/black_vmat_g_tnormal1_53b47c48.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/orange_neon_tga_2c9dfe5d.webp",
-      "bytes": 202,
-      "sha256": "694814130535fb220093c2818e0d47221ca2136513f027ddd2325554d0d53c70"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/orange_neon_vmat_g_tnormal_99c6f5c1.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/orange_neon_tga_998116b8.webp",
-      "bytes": 202,
-      "sha256": "694814130535fb220093c2818e0d47221ca2136513f027ddd2325554d0d53c70"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wallgods1_tga_bbb929f6.webp",
-      "bytes": 44532,
-      "sha256": "9d426c923c87637b3e5dfdb313344f14047104a63fab2b870a0776e890bd1251"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wallgods1_vmat_g_tnormal_99c6f5c1.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/sandstone_wall01_color_png_8f35264c.webp",
-      "bytes": 171726,
-      "sha256": "4951075a0782e566dc015828ca49b010c2e6eb9636d23583e39bff6bb27990ea"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall5a_diffuse_png_6bbefd74.webp",
-      "bytes": 142182,
-      "sha256": "b79e42dc048ecb6f4be7a0319ebb0a452cc4b4c604aeafe5f53138f264145251"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall5a_normal_png_d1dea16a.webp",
-      "bytes": 443874,
-      "sha256": "0a7e1e499ca9e8ccb9aa5ca246b3c026e33873a0a1f2ae2051a87860c1960313"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/ancient_lighting_lantern_01_lit_color_tga_c5096b7a.webp",
-      "bytes": 127884,
-      "sha256": "6f2c048061cdb62503cdc81864c8719b97d7142f4d41316a8fda692604d3f2c2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/ancient_lighting_lantern_01_normal_tga_bb44d024.webp",
-      "bytes": 510870,
-      "sha256": "529914d157a87c2bb1c40137808dfa02a9065194fc7e7652f442fd2c68de7456"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/ancient_lighting_lantern_01_lit_illum_tga_951dd40d.webp",
-      "bytes": 48506,
-      "sha256": "a95ded9c85efbcedfe059d5ba6f6aaf6be11e156a5298c60bf5c1cd9ff14a451"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/ancient_lighting_lantern_01_ao_tga_d73d5a7f_orm_2405039119.webp",
-      "bytes": 307066,
-      "sha256": "85c9b3603d8cbdf001af81ec2629f0a544722d418015053f6499f6d470b1dede"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/concrete1_diffuseoriginal_png_4f424c3f.webp",
-      "bytes": 18600,
-      "sha256": "85b28073757704c152a2b7826255da1df24301bf6f6c3a0e3c81f917d896d7fc"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/concrete1_normal_png_82dd3567.webp",
-      "bytes": 41866,
-      "sha256": "eca403c960f5b5b85ca307ed8452496c65d1d15d2f044e96b28adfe145ab252c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/door01_color_psd_248dc662.webp",
-      "bytes": 151180,
-      "sha256": "c001f035ea249a6861822fd657d4daac8be6764a7772f7fedd6f580f26a2a78f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/door01_nrm_normal_tga_8b295afa.webp",
-      "bytes": 454114,
-      "sha256": "e5831a035394ce0c28f90a2fc650720e62985d9ccffdf02d51972639cfcb19ff"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/door01_vmat_g_tmetalness_ee87d4b4_orm_327683158.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/egpwall1_tga_59e54dd0.webp",
-      "bytes": 44506,
-      "sha256": "9185c683bd0adb42359da8f7bfb2ad22c00cdb7ebd6884ea340b4c838d473c44"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/egpwall1_vmat_g_tnormal_99c6f5c1.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/stone_floor01_color_tga_3dd7d4f9.webp",
-      "bytes": 107726,
-      "sha256": "370b7866c536e89fc40f993b4073a0a15e65ee94614ac71dec7c6012ca5fd5c1"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/hr_stone_ground01_color_psd_9cc7c4d5.webp",
-      "bytes": 70172,
-      "sha256": "8f635fdede9c47db8dcd5342566d97755c196ea18cbc9e7a36a4cffee91fac9b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/hr_stone_ground01_ao_psd_e6e880c2_orm_2270001557.webp",
-      "bytes": 67214,
-      "sha256": "722be40061a083c14892a66ca25032de0740b0d33d1b2be51fd1e8b8cfe0d486"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/hr_stone_ground03b_color_psd_82a9c01e.webp",
-      "bytes": 244196,
-      "sha256": "3aa603796d910f708184bace6d3db9567c0ee8a8c26498ad3699f3de970f9de4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/sandstone_wall03_color_tga_607bc8b4.webp",
-      "bytes": 298288,
-      "sha256": "c690280aa4334f598e71f456375a3fc1f499be81903f4c12d51261915aad9e78"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/ladderwood_color_psd_3d487f52.webp",
-      "bytes": 56702,
-      "sha256": "f8491b71517498ddcdc7ea53763cdccb8f07be4c459ad29e712e65cfac94047d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/default_normal_tga_7be39f77.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/default_ao_tga_559f1ac6_orm_1717730434.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wood_trim_plywood_02_color_tga_d9460e3e.webp",
-      "bytes": 168784,
-      "sha256": "39a4d759363b680a65c9d7a04e8527a286e5cfd2817a6b5b2b9b93a9b33bf3e6"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wood_trim_plywood_02_normal_tga_6b347aa2.webp",
-      "bytes": 906534,
-      "sha256": "f60697750335ec3a89f6ce9aed6fb3c1305e75d0af0c1de6501e5ddac5d97c18"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/rock1_diffuse_png_a23d0794.webp",
-      "bytes": 385852,
-      "sha256": "5ff2acfeba3ca0e1bf0ac324073b03320baa558c52b699594e5312d0000d5386"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/rock1_normal_png_174275b5.webp",
-      "bytes": 1221572,
-      "sha256": "b8cb935cf20c34a977364af847d4b2d6c9d91bea9061181c2f2a8f3c35de799b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/sandstone01_color_tga_ea7c8402.webp",
-      "bytes": 105758,
-      "sha256": "a0563211fd50de9acae5571144fcd59b02fd0fac90306a349fcff05409b1c64e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/sandstone_wall01_color_psd_f94ca08e.webp",
-      "bytes": 173204,
-      "sha256": "4d3ed268fc3f253d80ae922a1d1c750f64ec2dfccf28b68dfa8898a2e851ae0d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/tombwall1_tga_7f7858c6.webp",
-      "bytes": 35768,
-      "sha256": "93e2dad8a55fc77c79d13379518464ee8217afe27e210fb310c5a00d7ec9b317"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/tombwall1_vmat_g_tnormal_99c6f5c1.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall1a_diffuse_png_1653d5a8.webp",
-      "bytes": 343714,
-      "sha256": "0a7256030906c5c0fda078bb1ac579ac07c7a65bb7ac7232a12caba45b769ae7"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall1a_normal_png_326215b7.webp",
-      "bytes": 1753490,
-      "sha256": "30124e7c37cdd6e8b375d2fcd8fae294d6f3a2af75b3e0b2e47d1fd54ef2ff06"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall1b_diffuse_png_35827abf.webp",
-      "bytes": 402142,
-      "sha256": "07208f309c53b9e5013fbd4ddb55458696a63c5ebce5327d4f6cee91e63debaa"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall1b_normal_png_c16a92a3.webp",
-      "bytes": 1783390,
-      "sha256": "5ad172c5447df597f0bb2b2f86875553ed052ede64724e799b144e0811efd604"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall2a_diffuse_png_9ae140.webp",
-      "bytes": 359292,
-      "sha256": "cefc4a4b8e627097dd155216d8e2bbab10017ae9378657483b50959712aa869e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall2a_normal_png_1fabce93.webp",
-      "bytes": 1723026,
-      "sha256": "9ac11f63cb93004734e9912c0b06b6566edbe688f2fd933fa149b38abac19532"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall2b_diffuse_png_72a43cb6.webp",
-      "bytes": 359326,
-      "sha256": "e769b14526e744a46ec0905fe02a6433872bd01e60d291a2c3be585f1c29ed6e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall2b_normal_png_bfdd006b.webp",
-      "bytes": 1710762,
-      "sha256": "46f73d67e8c061094fcd06f23e2d31b3a5fae9dfea86dcb327aaf032fd669ae3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall3a_diffuse_png_4f554081.webp",
-      "bytes": 306444,
-      "sha256": "893b65e0d0e517bd0f5c3b49b6b12f9ad8049985346a98c293427808aa1c7bff"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall3a_normal_png_42c41a34.webp",
-      "bytes": 1652318,
-      "sha256": "a9accb9b71680c6603608e7076bca9f051a54cefe4a53b042b325ae4d3d39f7a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall3b_diffuse_png_1a69872b.webp",
-      "bytes": 297134,
-      "sha256": "28617ce211ce5a1b620e679b2dcd69c0ce46ca3b1b8fd1e076db2da3cb693f3d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall3b_normal_png_af790e82.webp",
-      "bytes": 1635006,
-      "sha256": "d22ed7d63a45310466a04743914f8ec3e6a30b972cb57e160d4ba60882729cfd"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall4a_diffuse_png_45534cc7.webp",
-      "bytes": 311888,
-      "sha256": "b8be2d26fffee539e8e511b04a45047c505ae587f61d90000fdd6c478b9e232d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall4a_normal_png_928f7e8a.webp",
-      "bytes": 973046,
-      "sha256": "f2c5a9c7e795161935a28244f4fd0a3ced8b7645f8dd62a2209b6f63464ce5a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall4b_diffuse_png_f51b3196.webp",
-      "bytes": 304074,
-      "sha256": "b1e079825aa721b30aacf818f134ab00defc99510f71c9afe7d244d21ca0b709"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall4b_normal_png_b8d840de.webp",
-      "bytes": 974972,
-      "sha256": "1a724a86046945e42431a6ba6fd59a931fdc9980082bd5a06ae7ddd2b1c83bb3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall5b_diffuse_png_4b559e80.webp",
-      "bytes": 151218,
-      "sha256": "bb652f9af3139cb2f8f6e5854104f0ffac32011ab675100b5d7136e8d400067b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall5b_normal_png_8186f34.webp",
-      "bytes": 450640,
-      "sha256": "922c17488d2ead9378cad6d26b9c7b23cb8f43eac4d1ccee0bc3176bc0e87e00"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall5c_diffuse_png_c0d6e09e.webp",
-      "bytes": 156872,
-      "sha256": "36318824d0ab08b131b53b4bd5fbb515da08838d82b0cf21ad2938fb2a940268"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/wall5c_normal_png_c097d30d.webp",
-      "bytes": 463456,
-      "sha256": "4b4ce40245fdb8305c35b3c3eb3676aa08056832a9c1ec5c50104fadb88e2f67"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/lightweight/retakes_blocker_dynamic_vmat_g_tcolor_e18409d6.webp",
-      "bytes": 70,
-      "sha256": "6f56cb37ca89debe29e9cb892d4d82591f0f428f945e41b3be110d3602734cce"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/manifest.json",
-      "bytes": 2522,
-      "sha256": "bf7c574022b8612e59875e2fd68b8a741a93eb7d91517f6c859caefc4d793f40"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/gameplay.json",
-      "bytes": 3137,
-      "sha256": "c9a4b62d735695ea767df6aba2bbb2f900107e1bb84965927cc666bc18edf824"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/transports.json",
-      "bytes": 3054,
-      "sha256": "7d604e75afe55edaffc6c65d4ae00c1ed3572aa9dcd344462b5749557307cab8"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/splits.json",
-      "bytes": 2,
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/collision.bin",
-      "bytes": 152856,
-      "sha256": "38e84675fb9c491a1d22bccdca4c79579a877b694a6171143c400cd47b11fdeb"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/ladders.bin",
-      "bytes": 1728,
-      "sha256": "7968896699780dd68367947276e4c4c94cbe7df5596c7884dee0e25a9fab985a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/zone-gradient.png",
-      "bytes": 922,
-      "sha256": "df06507c11b2f079627c6f7aff06dafd8eb7410abecf1ad35d0221bb3341d3b0"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/key-collect.wav",
-      "bytes": 24740,
-      "sha256": "6319a9807adef2b0251eb849783baa4d114d6fb94e43317bf618efda247e61ba"
-    },
-    {
       "path": "ui/workshop/3801640043.jpg",
       "bytes": 34532,
       "sha256": "514671f223171dce934bacbebff4a6d69ea16fa475b7fdcd10866a3e662ee056"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/map.glb",
-      "bytes": 14578368,
-      "sha256": "2bd1f487d028b50b7fe1dfc0a739a5f5f77b541c37350b69a32a39df831bb14e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/tools_solid_block_light_psd_d308939f.webp",
-      "bytes": 2396,
-      "sha256": "781e705f7c63ba239268dbec37d5f32bcdf33f9c3bb7324a73b104541b69d1da"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_normal_tga_7652cb.webp",
-      "bytes": 36,
-      "sha256": "34503dc2053f2a8b0607becd70d7944da9256443961263cadd18931d72e1a6d2"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_normal_tga_b3f4ec4c_orm_3598707198.webp",
-      "bytes": 36,
-      "sha256": "14f7f48e88ee046f6d3e8a9a6c797e2cbf5327521cc94f62be82988d53b9e947"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/gradient_png_312f1924.webp",
-      "bytes": 178,
-      "sha256": "66271090d2f7564035a9619e20fee1dc6a788103dc145e296bb5fa50de0cb34f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_normal_tga_7be61377.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/gradient_vmat_g_tselfillummask_ff155607.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_ao_tga_559f1ac6_orm_171884568.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/tall_grass_card_color_psd_469e7880.webp",
-      "bytes": 44908,
-      "sha256": "eb0e810d930262685fdf67c7ad06b031c08c14e9705d1ad24cd849523b1c13ce"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_normal_tga_7be39f77.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/pool_water_normals_001_normal_tga_c8b79974.webp",
-      "bytes": 5882,
-      "sha256": "123c3aa49521e0473c2be4e9e7c8c18f2c69a0cc2ee81d4f3129a0faf3754647"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/survival_river_04_color_psd_a205b169.webp",
-      "bytes": 1090,
-      "sha256": "c3557090c02bd490de2cd0ba4fdd82d90673966d6b81b10b75515b6415dc14a1"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/survival_river_04_normal_psd_9060ae23.webp",
-      "bytes": 454602,
-      "sha256": "6bd427121375c1e0f2cd074d1e829374f5966cfd1ba317678201811c00e0af57"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/water_falling02_vmat_g_tmetalness_d78f1237_orm_1566752315.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/skylight_vmat_g_tcolor_7ab53e0a.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/skylight_vmat_g_tnormal_d52512a9.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/skylight_vmat_g_tselfillummask_ff155607.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/skylight_vmat_g_tambientocclusion_9782fd5c_orm_850641844.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/train_metal_door_01_color_tga_e68bfdb.webp",
-      "bytes": 28264,
-      "sha256": "7a9747384f7e7a9312d880a5f67a65b9fd6d6a364f6a64da5a21919d06bef17c"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/primary_red_color_tga_1b3901a4.webp",
-      "bytes": 72,
-      "sha256": "586dab0aa4bcedc717079b72744cd3fa0c0b5a75ba4cc3f12d4e1aca544cc158"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/green_plane_vmat_g_tcolor_64dfd14c.webp",
-      "bytes": 44,
-      "sha256": "5c37726988a2ad73c4dfae2f4af7d7a1e8b47d96974b0c4c9fce17e260f20fa5"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_ao_tga_559f1ac6_orm_3093089570.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/black_vmat_g_tcolor1_cc87d5c7.webp",
-      "bytes": 44,
-      "sha256": "e68bb6828d842a6c845223b2966aef7c28134491c003f940020e17ee8b06391d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/black_vmat_g_tnormal1_53b47c48.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/ancient_river_rock_01_color_tga_8ba38385.webp",
-      "bytes": 281278,
-      "sha256": "4866f31795ca2776624998553f8976201dfc8341e87a22a9d8901e8d60fd5485"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/ancient_river_rock_01_normal_tga_4a16e715.webp",
-      "bytes": 1979392,
-      "sha256": "c7ed73eaadce691015f047bd25b747ee43f1e04eb5d6d5c6244a840f3c39c315"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/barberry_02_color_psd_bc0a8df0.webp",
-      "bytes": 57882,
-      "sha256": "14bb0a16b5fe46e83c0219e91dfe04dc37699da3b7a1e7d43aa87a074a918cb9"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/barberry_02_normal_psd_10b0ee63.webp",
-      "bytes": 206478,
-      "sha256": "0fd0f85b938df32e8af8ed92f2b45c70fc775990ec72d1f1c5061d57abdc5bfb"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/brixk3g_tga_23ac4633.webp",
-      "bytes": 336422,
-      "sha256": "6fe030642d61409e9c72f721aa4abc913fe6beca0835837b2023071b3a0ce226"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/brixk3g_nrm_tga_5e9d564f.webp",
-      "bytes": 1721116,
-      "sha256": "74307723cf7a9ee831a933cef4f7703e08c675c21a3aab128f19b2e9c277da9e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/decksm1_tga_e12d82bf.webp",
-      "bytes": 8558,
-      "sha256": "cea84eae2fbefe93803c6ff15b16ce7ab87c308cf42be15c267f6715cd394d1d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/decksm1_nrm_tga_7b15bbbf.webp",
-      "bytes": 113800,
-      "sha256": "67da1700c0e502a0190e4ac56b67b2ac116718fd2c9e7139cf7f43707ff8e4b8"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/flrwka_tga_ffff8749.webp",
-      "bytes": 327324,
-      "sha256": "6ba27e7e3c07f9280cf9f15acbdfb97f755f4e4f828a7c525271b3acc5f150ad"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/flrwka_normal_tga_28ecf70.webp",
-      "bytes": 1994422,
-      "sha256": "d5f1d5eb9672f424da2adce73088c066776d82e089f288b6480f2e6b8c5dd374"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/imported_foliage_grass_weed_cluster_001_interactive_color_psd_aaf70e0d.webp",
-      "bytes": 229384,
-      "sha256": "4d7bdff497a387ebb64a9deeeaec209f2eb6890fa261931510a0cd4b5937531a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/imported_foliage_grass_weed_cluster_001_interactive_normal_psd_ccb62f1b.webp",
-      "bytes": 632882,
-      "sha256": "6e9025d0ab8786ab0b2d2177b985dd5886d155bbd9cdf574e2066fd1b8fc1e9a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/imported_foliage_grass_weed_cluster_001_interactive_vmat_g_tambientocclusion_9782fd5c_orm_3760695080.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/mall_trees_branches03_color_psd_c41e09a.webp",
-      "bytes": 575690,
-      "sha256": "c2fa97bd4b188e58d7903a1f036fdc74e0773b8f8e25097c6ecfc0eddc23b5df"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/mall_trees_branches03_normal_psd_89549f78.webp",
-      "bytes": 1057334,
-      "sha256": "aba16390fb42768beb018818950c77710704b1689dcd26d63f379531ed439d09"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/mall_trees_branches01_vmat_g_tambientocclusion_9782fd5c_orm_2493246673.webp",
-      "bytes": 36,
-      "sha256": "d01460ca11ce47a7c9b3427f78c829cef5041dec54a4c2ba49cfe6d5e7d8737e"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/mgrass7_tga_9bb13be5.webp",
-      "bytes": 23962,
-      "sha256": "3e2e2ab346a5d4f440dd97476202ca9e851ea1e0dde6e540b684c59bc0841085"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/mgrass7_nrm_tga_b6d6d3eb.webp",
-      "bytes": 103804,
-      "sha256": "01c41cabe31323acebcd4085e4c2bb44ed19d24420b550790d1d1631a5b52d9a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/orange_blend_vmat_g_tcolor_655e55ce.webp",
-      "bytes": 70,
-      "sha256": "326bbc9a0a2769e4420d86dd6ebd208ef82ccb24c9f95c04b53ba6764052bf77"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/orange_blend_vmat_g_tnormal_c0eeea94.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/default_concrete_seawall001_ao_psd_f1b7c98c_orm_2442095522.webp",
-      "bytes": 550380,
-      "sha256": "d249832bdb4ca29ba19903bfaab9d554e5640ed60298cdc20a75ff3764ea4157"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/spindle_albedo_psd_6eb74f7e.webp",
-      "bytes": 175762,
-      "sha256": "358fb8fc7bcc7e302e69a2a44714cf35bb2fd5dbb3ba2b87cc355337027996b3"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/spindle_normal_tga_173ea6b9.webp",
-      "bytes": 491278,
-      "sha256": "f663205985832e079142c0c911863c4c36f5d9408ae3280a992fddaba951a568"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/spindle_ao_tga_b3455fe2_orm_1601047868.webp",
-      "bytes": 15660,
-      "sha256": "48f206026978284e4aa4c069e6e84cfef8d65a2ebee208241eac9999d16be66b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/urban_tree_small_1_color_psd_2aea4720.webp",
-      "bytes": 258612,
-      "sha256": "d11f3c5772cf6c5c00682a34935a079c488390288ec23b4e9d2e056790ad7f9f"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/urban_tree_small_1_a_ao_tga_429e0afb_orm_4201784701.webp",
-      "bytes": 350442,
-      "sha256": "bf09c1468d24a98ec3cba26af52eb92287dee9e56e1ab2b7a43ba47d3230bc38"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/urban_tree_small_1_bark_color_psd_b863918e.webp",
-      "bytes": 255432,
-      "sha256": "1f67155e9d0ce5c0ca8280f496df6092b4c7259d3cf71044db478ec1ce50d680"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/urban_tree_small_1_normal_tga_34a2caf8.webp",
-      "bytes": 1829870,
-      "sha256": "564391327b716bc514118a87fd83d906ca2c2ad9dbd52f4d3aa82b66d401ec17"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/urban_tree_small_1_ao_tga_fc84534_orm_3397766520.webp",
-      "bytes": 466774,
-      "sha256": "8170b6030df645cf34c9e5d54ae6344f4b8ba54f7bb160ccd40c1259e0f74f37"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/water2_tga_39ff0fa9.webp",
-      "bytes": 1992,
-      "sha256": "3bd0371410b0a1d807a8133ff752c66b324aba0e443b59e7fcb3b4b9ef11420d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/water2_vmat_g_tnormal1_53b47c48.webp",
-      "bytes": 38,
-      "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/weeds_01a_color_tga_10c1ea0d.webp",
-      "bytes": 562114,
-      "sha256": "91ce4e8df11b47fb373f67828038a8bd0bca71259e4008256f6813b1d72bbe03"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/weeds_01a_normal_tga_460aad19.webp",
-      "bytes": 1961774,
-      "sha256": "d4ab0bdbb57302462fbd8178ef86b175066092460c07555f08f0db350814e0bb"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/weeds_01a_ao_tga_b487aece_orm_3130782392.webp",
-      "bytes": 126454,
-      "sha256": "7f20082eb13fb258b48bebf82361bf3dfb0bc54db1f6f929a089d2af0a276004"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/hr_aztec_tropical_foliage_02_color_psd_88275b9c.webp",
-      "bytes": 96288,
-      "sha256": "3373250f0892c83e809b9e4b1351ba78fa72f27904264d946cb2fb4960c60188"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/hr_aztec_tropical_foliage_02_normal_tga_b549449d.webp",
-      "bytes": 474742,
-      "sha256": "7f0909142bc64df7572d43b523c9de98f7cb4a44032ccff8357e1f831787b753"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/hr_ancient_tropical_foliage_02_ao_tga_55f4acf4_orm_721420369.webp",
-      "bytes": 45922,
-      "sha256": "8c08673b7a8c1650adfe5c1cf04e6e39e040520e3f3b66b2324e60d38d58d640"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/hr_aztec_yucca_01_color_psd_7e162f1c.webp",
-      "bytes": 95152,
-      "sha256": "295ff3a672e323ed4293729b6a3126164b4d8e09f423de265e81601f38e25733"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/hr_aztec_yucca_01_normal_tga_2da3ba34.webp",
-      "bytes": 346586,
-      "sha256": "d4b45392e07cb819a8315323d0610af0b41b96fc1fd2f9ad2bfdfe5437734d9d"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/hr_ancient_yucca_01_ao_tga_beaa96f6_orm_3723284238.webp",
-      "bytes": 14662,
-      "sha256": "b2ebf34189e0385c23165e287ba6b61aec12ce3d8a5d15b3003faab95f907f50"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/maple_tree_bark_color_psd_572eab9e.webp",
-      "bytes": 221718,
-      "sha256": "32c9c32b33dd16d67861216264b1c3d422d78059400a90e7450980a7dd59f588"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/maple_tree_bark_normal_tga_3e48acac.webp",
-      "bytes": 1255202,
-      "sha256": "624f68dfcfe78602c98589f21e9415cc10c896258b88cddc486cf675758c49fe"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/maple_tree_bark_ao_tga_167a34d3_orm_3772960965.webp",
-      "bytes": 448814,
-      "sha256": "07a6ed4870555f4b15410589a31c8858d77c07252cf54b27b4681c9d3dac7b19"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/maple_tree_leaf_color_psd_38ca381.webp",
-      "bytes": 212994,
-      "sha256": "703617c2eabf32bd0bc777168f3ab3b7bc3b722c35791921de5723a1d593f6fe"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/maple_tree_leaf_normal_tga_f8a5e1d0.webp",
-      "bytes": 683954,
-      "sha256": "78974c48ff8be9508ce94f52a8cc66f01fa5ae049663f0868e20ad6ad3412c92"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/ancient_skybox_tree_cards_01_color_tga_17ad5d17.webp",
-      "bytes": 512598,
-      "sha256": "a46d595ead8ca670ee95204c3baa66ec37192255534e3c27c0efaee951901d6b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/ancient_skybox_tree_cards_01_normal_tga_ea777c08.webp",
-      "bytes": 1024456,
-      "sha256": "65628d8ad4590043c67bc520ceab391bcf1cf9fd7953dfc7f1b3d25044616acf"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/ancient_skybox_tree_cards_01_ao_tga_7bcf874f_orm_2273398978.webp",
-      "bytes": 210976,
-      "sha256": "96e5f5e039142c0c30effb6b763654a0720c631a59e756213b4ba6a38c3a891b"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/elderberry_bark_01_color_psd_8e8418e2.webp",
-      "bytes": 129922,
-      "sha256": "025cc084f7c0c370b975482499967d57efb67ec1c2f8d95875ef68b06ee65cf0"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/elderberry_bark_01_normal_psd_9e1039c7.webp",
-      "bytes": 1128220,
-      "sha256": "51f46a75cca56ac8bec27f269ec61046c69b732265c8d194360c69b0cf32ec0a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/elderberry_01_color_psd_10d4bcdf.webp",
-      "bytes": 51078,
-      "sha256": "f96edbf11986eca27b38047756ce2223f6c18895897212a53daa1987be56c7fd"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/lightweight/elderberry_01_normal_psd_3e96b9e2.webp",
-      "bytes": 213002,
-      "sha256": "f62353927692094f8ba05d1bd1de27535b54c5b3b8286f16b7e402dcb73e224a"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/manifest.json",
-      "bytes": 2851,
-      "sha256": "b7f0d20a08ec0e31855bbc5405412d34f92d38ef200fcab2ec3c011683d7c081"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/gameplay.json",
-      "bytes": 3569,
-      "sha256": "027dcea78504c8befb0c2597696ab34ff9ecf5b0e5b61514c1ae3512327f9bd1"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/transports.json",
-      "bytes": 15133,
-      "sha256": "63fd8c1a390c1de49fec3157c00e8a4578c490b8b448d5e67adcded395f604a7"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/splits.json",
-      "bytes": 2,
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/collision.bin",
-      "bytes": 385560,
-      "sha256": "013d064d27e79b740ac08efe72e77d3722634625576a17a0cf918c7128d714a4"
-    },
-    {
-      "path": "releases/four-map-vercel-20261126/maps/3366047597/ladders.bin",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "ui/workshop/3366047597.jpg",
-      "bytes": 33215,
-      "sha256": "8388f89bed081ce6e12c83dae84290e69236072a992bba3025eeffde6230f00d"
     }
   ],
-  "runtimeBytes": 93101842,
-  "totalPublicBytes": 94064791
+  "totalPublicBytes": 94065207
 }

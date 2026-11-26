@@ -16,7 +16,7 @@ import { type V, speed, clamp } from './physics/math';
 import {MapTransport} from './physics/transport';
 import {MapTriggerTransport} from './physics/map-trigger-transport';
 import {maps,selectedMap,selectMap} from './map-catalog';
-import {lockMouse} from './pointer-lock';
+import {lockMouse,requestPlayCapture} from './pointer-lock';
 import {captureGameKeys,keyboardCapture} from './keyboard-lock';
 import {Checkpoints} from './physics/checkpoints';
 import {CourseTimer} from './physics/timer';
@@ -168,22 +168,26 @@ function updateFullscreenControls(){const fullscreen=Boolean(document.fullscreen
 el('exit-fullscreen').onclick=()=>{keyboardCapture()?.unlock?.();keysCaptured=false;void document.exitFullscreen().catch(()=>{updateFullscreenControls();toast('Hold Esc to exit fullscreen.');});};
 updateFullscreenControls();
 function activate(){active=true;menu.hidden=true;epoch=performance.now()/1000-sim.time-profile.step;lastFrame=performance.now();canvas.focus();}
+let starting=false;
 async function start(){
-  if(!ready)return;
+  if(!ready||starting)return;
+  starting=true;
   actionSound.unlock();
   jumpSound.unlock();
   try{keySound?.unlock();}catch(e){console.warn('Audio unavailable',e);}
-  if(el<HTMLInputElement>('fullscreen-play').checked&&!document.fullscreenElement){
-    try{await document.documentElement.requestFullscreen();}catch{/* Embedded/unsupported browsers retain windowed play. */}
-  }
-  keysCaptured=await captureGameKeys(Boolean(document.fullscreenElement),keyboardCapture());
-  updateFullscreenControls();
-  try{mouseMode=await lockMouse(canvas);if(!keysCaptured)toast('Shortcut protection unavailable. Use C to duck to avoid Ctrl+W; fullscreen keyboard permission is needed.');}
-  catch{mouseMode='DRAG PREVIEW';dragPreview=true;activate();toast('Pointer lock unavailable: hold left mouse to look. Use C to duck.');}
+  const capture=requestPlayCapture(canvas,el<HTMLInputElement>('fullscreen-play').checked&&!document.fullscreenElement?()=>document.documentElement.requestFullscreen():undefined);
+  try{
+    await capture.fullscreen;
+    keysCaptured=await captureGameKeys(Boolean(document.fullscreenElement),keyboardCapture());
+    updateFullscreenControls();
+    const mouse=await capture.mouse;
+    if(mouse.ok){mouseMode=mouse.mode;dragPreview=false;if(document.pointerLockElement===canvas)activate();if(!keysCaptured)toast('Shortcut protection unavailable. Use C to duck to avoid Ctrl+W; fullscreen keyboard permission is needed.');}
+    else{mouseMode='DRAG PREVIEW';dragPreview=true;activate();toast('Pointer lock unavailable: hold left mouse to look. Use C to duck.');}
+  }finally{starting=false;}
 }
 play.onclick=start;canvas.onclick=()=>{if(!active)void start();};
 document.addEventListener('pointerlockchange',()=>{
-  if(document.pointerLockElement===canvas){dragPreview=false;if(!active)activate();}
+  if(document.pointerLockElement===canvas){dragPreview=false;if(!active&&!starting)activate();}
   else if(!dragPreview&&!(scoreboardHeld&&scoreboardMouse))pause();
 });
 canvas.tabIndex=0;
@@ -302,6 +306,9 @@ async function load(){
   // Exported Source photometric values are not calibrated to this viewer's exposure.
   // Divert's directional intensity 683 washes out its textures; use the scene lights.
   model.traverse(o=>{if(o instanceof THREE.Light)o.visible=false;});
+  // Missing baked interior bounce makes Dydanhomon's downward-facing rock roof black.
+  // A bounded map-local preview fill reveals its existing texture, without changing materials.
+  if(manifest.workshopId==='3801640043')model.add(new THREE.AmbientLight('#fff4e5',.6));
   model.traverse(o=>{if(o instanceof THREE.Mesh){
     if(manifest.renderAsset){
       for(const material of (Array.isArray(o.material)?o.material:[o.material])){
