@@ -94,7 +94,7 @@ npm run dev
 Open the localhost URL printed by Vite. The development configuration enables the same local-play mode as the hosted demo, without requiring a backend.
 
 ```sh
-npm test          # 56 focused movement, collision, ladder and input checks
+npm test          # 62 focused movement, collision, ladder and input checks
 npm run build    # TypeScript check, then rebuild demo/
 npm run preview  # Serve the rebuilt demo locally
 ```
@@ -129,6 +129,10 @@ The committed build serves map assets at `/maps/`. A fresh source build copies a
 Identical asset blobs in `public/` and `demo/` are deduplicated by Git. Local dependencies, credentials and temporary verification output are excluded from the repository.
 
 </details>
+
+## Latest movement correction
+
+Classic now crops grounded landing speed without cancelling valid perf restoration, and saves collision-resolved landing velocity. See [the landing fix and replay measurements](docs/CKZ-LANDING-FIX-2026-11-27.md). This physics revision starts a separate local PB baseline; older saved replays remain playable.
 
 ## Scope & attribution
 

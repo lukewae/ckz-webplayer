@@ -56,7 +56,7 @@ test('timestamped inputs yield identical results at 30 / 60 / 144 / 240 render H
 test('reset clears all history, velocity, input edges and duck state',()=>{const p=setup(),s=new Simulation(p);s.logging=true;s.enqueue({time:0,key:'forward',value:true});s.advance(1);s.reset();assert.deepEqual(p.position,p.spawn);assert.deepEqual(p.velocity,[0,0,0]);assert.equal(s.events.length,0);assert.equal(s.history.length,0);assert.equal(p.pre.gain,0);assert.equal(p.lastPerf,'—');assert.equal(p.duckAmount,0);});
 test('turning prestrafe cannot exceed the requested 275 u/s ground cap',()=>{const p=setup();p.velocity=[300,0,0];p.pre.left=.5;p.pre.right=.5;p.pre.bonus=26;const input=emptyInput();input.forward=true;for(let i=0;i<256;i++){input.yaw=i;p.tick(input,i/128,1/128,0);assert.ok(speed(p.velocity)<=275+1e-9);}p.tick(input,2,1/128,1);assert.ok(p.lastTakeoff<=275+1e-9);});
 test('ground cap does not crop legitimate airborne momentum or immediate perf takeoff',()=>{const p=setup();p.velocity=[1000,0,0];p.landingVelocity=[1000,0,-100];p.landingTime=1;p.tick(emptyInput(),1,1/128,1);assert.equal(p.lastPerf,'PERF');assert.ok(p.lastTakeoff>275);const air=setup();air.grounded=false;air.position=[0,0,1000];air.velocity=[500,0,0];air.tick(emptyInput(),1,1/128,0);close(air.velocity[0],500);});
-test('brief landing contact does not apply the prestrafe cap to slide entry speed',()=>{const p=setup();p.velocity=[500,0,0];p.landingTime=1;p.tick(emptyInput(),1,1/128,0);assert.ok(speed(p.velocity)>450);p.tick(emptyInput(),1.03,1/128,0);assert.ok(speed(p.velocity)<=275);});
+test('brief landing contact crops grounded coasting even within the perf window',()=>{const p=setup();p.velocity=[500,0,0];p.landingTime=1;p.tick(emptyInput(),1,1/128,0);close(speed(p.velocity),275);p.tick(emptyInput(),1.03,1/128,0);assert.ok(speed(p.velocity)<=275);});
 function slopeWorld(slope:number){
   const a:V=[-4096,-4096,-4096*slope],b:V=[4096,-4096,4096*slope],c:V=[4096,4096,4096*slope],d:V=[-4096,4096,-4096*slope];
   return new TriangleWorld([...a,...b,...c,...a,...c,...d]);
@@ -79,11 +79,11 @@ test('uphill and downhill turning pre stays grounded and never exceeds 275',()=>
 });
 test('fast uphill contact keeps the clipped vector instead of a stair-generated boost',()=>{
   const p=slopePlayer(.75,500);p.landingTime=0;
-  p.tick(emptyInput(),0,1/128,0);
-  assert.equal(p.grounded,false);
-  // Friction leaves 479.6875. Projecting onto z=.75x gives (307,0,230.25),
-  // then the closing gravity half-step removes 3.125 vertical units.
-  close(p.velocity[0],307);close(p.velocity[2],227.125);
+  // Exercise the collision/stair routine with a fast incoming contact directly.
+  // Normal grounded movement now crops speed before reaching this routine.
+  p.velocity=friction(p.velocity,1/128);p.stepMove(1/128);
+  close(p.velocity[0],307);close(p.velocity[2],230.25);
+  p.grounded=false;p.velocity[2]-=3.125;
   for(let i=1;i<256;i++)p.tick(emptyInput(),i/128,1/128,0);
   assert.equal(p.grounded,true);close(speed(p.velocity),0);
   assert.ok(p.position[2]-p.spawn[2]<85,'coasting uphill used to rise over 158 units');

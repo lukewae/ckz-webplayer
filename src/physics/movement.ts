@@ -200,13 +200,21 @@ export class Player {
       if(total>cap)this.velocity=mul(this.velocity,cap/total);
     }else this.velocity=accelerate(this.velocity,wish,(f||r)?max:0,dt*this.surfaceFriction,!this.grounded,this.profile);
     if(this.airDebug)this.airDebug.afterAcceleration=speed(this.velocity);
-    // Requested local profile: ground prestrafe is hard-capped at 275.
-    // Takeoff is processed before ground friction/cropping, preserving valid perf carry.
-    if(!vanilla&&this.grounded&&!isPerf(now-this.landingTime)&&speed(this.velocity)>CKZ.groundSpeedCap){const scale=CKZ.groundSpeedCap/speed(this.velocity);this.velocity[0]*=scale;this.velocity[1]*=scale;}
+    // WalkMove crops current speed even inside the perf window. Jump runs
+    // first and restores its separate landing snapshot, so valid perfs retain
+    // carry without allowing high-speed coasting while grounded. Retain the
+    // existing local 275 ceiling and active-pre acceleration policy.
+    if(!vanilla&&this.grounded){
+      const cap=CKZ.groundSpeedCap,s=speed(this.velocity);
+      if(s>cap){this.velocity[0]*=cap/s;this.velocity[1]*=cap/s;}
+    }
     this.velocity=this.velocity.map(v=>clamp(v,-this.profile.maxVelocity,this.profile.maxVelocity)) as V;
     if(vanilla&&this.grounded&&len(this.velocity)<1)this.velocity=[0,0,0];
     const incoming:V=[...this.velocity];
     if(this.grounded){this.stepMove(dt);this.stayOnGround();}else this.slide(dt);
+    // Native RegisterLanding receives velocity immediately before ground
+    // categorization, after movement has resolved wall/ramp contacts.
+    const landingVelocity:V=[...this.velocity];
     const groundEnd=add(this.position,[0,0,-2]);
     const rawGround=this.world.trace(this.position,groundEnd,this.height);
     const ground=vanilla?rawGround:fixGround(this.world,this.position,groundEnd,this.height,rawGround);
@@ -235,11 +243,11 @@ export class Player {
       // probe retains its height until WalkMove, or an immediate bhop.
       if(!vanilla||startedGround)this.position=ground.end;
       if(!startedGround){
-        this.landingTime=now+dt;this.landingVelocity=incoming;
+        this.landingTime=now+dt;this.landingVelocity=vanilla?incoming:landingVelocity;
         if(vanilla)this.stamina=clamp(this.stamina+this.profile.staminaLand*fallSpeed,0,this.profile.staminaMax);
         // CKZ SlopeFix: only retain a downhill clip if it increases horizontal speed.
-        const projected=clip(incoming,ground.normal);
-        if(!vanilla&&ground.normal[2]<0.999999&&speed(projected)>=speed(incoming)){
+        const projected=clip(landingVelocity,ground.normal);
+        if(!vanilla&&ground.normal[2]<0.999999&&speed(projected)>=speed(landingVelocity)){
           this.velocity[0]=projected[0];this.velocity[1]=projected[1];this.landingVelocity=[...projected];
         }
       }

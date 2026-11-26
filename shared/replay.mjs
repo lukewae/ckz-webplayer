@@ -1,5 +1,5 @@
 export const REPLAY_VERSION=1;
-export const REPLAY_PHYSICS='ckz-browser-2026-10-17-landing';
+export const REPLAY_PHYSICS='ckz-browser-2026-11-27-ground-crop';
 export const MAX_REPLAY_SECONDS=600;
 export const MAX_REPLAY_BYTES=24*1024*1024;
 // t, x,y,z, eye, yaw,pitch, vx,vy,vz, buttons, jump requests, grounded,
@@ -11,7 +11,7 @@ export function validateReplay(value){
   const vnl=movement?.mode==='vnl';
   if(vnl){
     if(Object.keys(movement).some(k=>!['mode','timing','airAccelerate'].includes(k))||!['64','128','64x128'].includes(movement.timing)||!Number.isFinite(movement.airAccelerate)||movement.airAccelerate<0||movement.airAccelerate>1000||![1,2,3,4,5,6].some(v=>value.physics===`csgo-vnl-v${v}-${movement.timing}-aa${movement.airAccelerate}`)||value.hz!==(movement.timing==='64'?64:128))fail();
-  }else if(movement!==undefined||value?.hz!==128||!['ckz-browser-2026-10-11','ckz-browser-2026-10-12-slopes','ckz-browser-2026-10-12-takeoff','ckz-browser-2026-10-12-contact','ckz-browser-2026-10-13-duck','ckz-browser-2026-10-13-ladder',REPLAY_PHYSICS].includes(value?.physics))fail();
+  }else if(movement!==undefined||value?.hz!==128||!['ckz-browser-2026-10-11','ckz-browser-2026-10-12-slopes','ckz-browser-2026-10-12-takeoff','ckz-browser-2026-10-12-contact','ckz-browser-2026-10-13-duck','ckz-browser-2026-10-13-ladder','ckz-browser-2026-10-17-landing',REPLAY_PHYSICS].includes(value?.physics))fail();
   const hz=value?.hz;
   if(!Number.isFinite(preRoll)||preRoll<0||preRoll>1)fail();
   if(!value||value.version!==REPLAY_VERSION||
