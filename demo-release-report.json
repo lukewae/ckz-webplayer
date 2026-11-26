@@ -1,5 +1,5 @@
 {
-  "id": "webplayer-entry-roof-20261126",
+  "id": "webplayer-pro-tp-20261127",
   "mode": "static-local-play",
   "maps": [
     {
@@ -45,14 +45,14 @@
   ],
   "files": [
     {
-      "path": "assets/index-Dc97WTC1.js",
-      "bytes": 710298,
-      "sha256": "4ff9d4bcf33b3e1a7ea3f5470dfb4bff4a56c658e89ee2c19f5dcc6cff2c4c76"
-    },
-    {
       "path": "assets/index-p0FuO99N.css",
       "bytes": 45006,
       "sha256": "a76021d8d851eb9bdb2e8381f1f57bb3a2a6bac31b0ebc0429aab49f1fba307d"
+    },
+    {
+      "path": "assets/index-QHfYIwMK.js",
+      "bytes": 711441,
+      "sha256": "cf2d1daca24c0ea92f10e2b2d1b2676a8961522cd1ee4c21f25b3e3b0fa9a2b3"
     },
     {
       "path": "audio/jumpstats/godlike.mp3",
@@ -87,7 +87,7 @@
     {
       "path": "index.html",
       "bytes": 361,
-      "sha256": "aa6d41fc3c467c59014b2eaa98edcf1ac66cb6825dbec6267b6ff86a6d588a43"
+      "sha256": "f7b8ba31868580b29875f7a828036b4afa3e111f67efdd73db8f90a32e92af62"
     },
     {
       "path": "LICENSE",
@@ -1620,5 +1620,5 @@
       "sha256": "514671f223171dce934bacbebff4a6d69ea16fa475b7fdcd10866a3e662ee056"
     }
   ],
-  "totalPublicBytes": 94065207
+  "totalPublicBytes": 94066350
 }

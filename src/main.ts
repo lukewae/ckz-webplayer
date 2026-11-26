@@ -63,7 +63,7 @@ function selectMovement(mode:'ckz'|'vnl'){const url=new URL(location.href);if(mo
 for(const button of Array.from(menu.querySelectorAll<HTMLButtonElement>('[data-movement-mode]')))button.onclick=()=>{const mode=button.dataset.movementMode as 'ckz'|'vnl';if(mode!==profile.mode)selectMovement(mode);};
 timingSelect.onchange=()=>{const url=new URL(location.href);url.searchParams.set('mode','vnl');url.searchParams.set('timing',timingSelect.value);url.searchParams.set('page','settings');url.searchParams.set('area','vanilla');url.searchParams.delete('airaccelerate');url.searchParams.delete('replay');location.assign(url.href);};
 const finishPanel=new FinishPanel(app,()=>{menu.hidden=false;});
-const leaderboards=new Leaderboards(menu,rankedMode(profile.id)!==null,profile.mode);
+const leaderboards=new Leaderboards(menu,rankedMode(profile.id)!==null,profile.mode,profile.id);
 leaderboards.onGuestName=()=>finishPanel.requestName();
 finishPanel.onReplay=()=>{if(!lastLocalReplay)return;pause();menu.hidden=true;replayViewer.open(lastLocalReplay,'Your run');};
 if(profile.mode==='vnl'){el('tab-leaderboards').textContent='VNL leaderboards';menu.querySelector('#menu-page-leaderboards h2')!.textContent='VNL leaderboards';}
@@ -153,7 +153,7 @@ function kzAction(action:KzAction){
   else if(action==='noclip')toggleNoclip();
   else if(action==='pause'){
     if(!kzPaused&&!player.grounded&&!player.onLadder){toast('Pause requires ground or ladder contact');return;}
-    kzPaused=!kzPaused;if(sim.timer?.state==='running')sim.timer.practice=true;
+    kzPaused=!kzPaused;
     sim.events=[];sim.input={...emptyInput(),yaw,pitch};sim.previousYaw=yaw;sim.desiredYaw=yaw;sim.previousPitch=pitch;sim.desiredPitch=pitch;sim.oldJump=false;
     epoch=performance.now()/1000-sim.time-profile.step;toast(kzPaused?'Paused':'Resumed');
   }else if(action==='jumpstats'){player.jumpLog.enabled=!player.jumpLog.enabled;player.jumpLog.cancel();el<HTMLInputElement>('jump-record').checked=player.jumpLog.enabled;}
@@ -163,7 +163,7 @@ function kzAction(action:KzAction){
   else if(action==='hud'){document.exitPointerLock();pause();hud.open();}
   el<HTMLInputElement>('noclip').checked=player.noclip;
 }
-function pause(){ljHeld=false;jbHeld=false;jbWheel.reset();if(scoreboardHeld)closeScoreboard();keySound?.stop();if(active&&sim?.timer?.state==='running')sim.timer.practice=true;active=false;dragging=false;if(!document.fullscreenElement){keyboardCapture()?.unlock?.();keysCaptured=false;}menu.hidden=finishPanel.open||Boolean(replayViewer.replay);if(!el('menu-page-settings').hidden&&!el('settings-hud').hidden)hud.open();play.textContent='Resume →';if(sim){sim.events=[];sim.input={...emptyInput(),yaw,pitch};sim.previousYaw=yaw;sim.desiredYaw=yaw;sim.previousPitch=pitch;sim.desiredPitch=pitch;sim.oldJump=false;}el('ground').textContent='PAUSED';updateFullscreenControls();}
+function pause(){ljHeld=false;jbHeld=false;jbWheel.reset();if(scoreboardHeld)closeScoreboard();keySound?.stop();active=false;dragging=false;if(!document.fullscreenElement){keyboardCapture()?.unlock?.();keysCaptured=false;}menu.hidden=finishPanel.open||Boolean(replayViewer.replay);if(!el('menu-page-settings').hidden&&!el('settings-hud').hidden)hud.open();play.textContent='Resume →';if(sim){sim.events=[];sim.input={...emptyInput(),yaw,pitch};sim.previousYaw=yaw;sim.desiredYaw=yaw;sim.previousPitch=pitch;sim.desiredPitch=pitch;sim.oldJump=false;}el('ground').textContent='PAUSED';updateFullscreenControls();}
 function updateFullscreenControls(){const fullscreen=Boolean(document.fullscreenElement);el('exit-fullscreen').hidden=!fullscreen;el('menu-key-hint').textContent=fullscreen?(keysCaptured?'Esc / P · menu · Hold Esc to exit fullscreen':'P · menu without leaving fullscreen'):'Esc / P · menu · P / Resume to play';}
 el('exit-fullscreen').onclick=()=>{keyboardCapture()?.unlock?.();keysCaptured=false;void document.exitFullscreen().catch(()=>{updateFullscreenControls();toast('Hold Esc to exit fullscreen.');});};
 updateFullscreenControls();

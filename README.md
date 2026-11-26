@@ -24,6 +24,8 @@ Practice strafing, bunnyhops, ladders and technical routes with checkpoints, cou
 - **A configurable HUD:** position and scale the speed display, timer, jump information and crosshair; tune controls and sound effects.
 - **A standalone static build:** four maps, their active runtime assets and the player total **94.07 MB** in the deployed snapshot.
 
+**Pro and TP have separate local PB boards.** A run with zero checkpoint teleports is Pro; one or more is TP. Menus, pauses and focus loss suspend the simulation without invalidating a run. Noclip cancels the active timer.
+
 This version is **local play**: Steam sign-in, shared leaderboards and online replay hosting are disabled. Personal bests are browser-local; the last-run replay belongs to the current session.
 
 ## Maps
@@ -92,7 +94,7 @@ npm run dev
 Open the localhost URL printed by Vite. The development configuration enables the same local-play mode as the hosted demo, without requiring a backend.
 
 ```sh
-npm test          # 54 focused movement, collision, ladder and input checks
+npm test          # 56 focused movement, collision, ladder and input checks
 npm run build    # TypeScript check, then rebuild demo/
 npm run preview  # Serve the rebuilt demo locally
 ```

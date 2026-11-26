@@ -2,7 +2,7 @@ import {rankedMode} from '../shared/ranking.mjs';
 import type {Replay} from './replay';
 import {cacheReplay,readReplay,removeReplay} from './replay-cache';
 import {maps,selectedMap} from './map-catalog';
-import {formatRunTime,type RunResult} from './run-results';
+import {formatRunTime,readPersonalBest,type RunResult} from './run-results';
 const staticDemo=import.meta.env?.VITE_STATIC_DEMO==='true';
 interface User {steamId:string;name:string;banned:boolean;guest?:boolean}
 interface Session {user:User|null;csrf:string|null;guestMode?:boolean}
@@ -30,7 +30,7 @@ export class Leaderboards {
   onReplay?:(id:string,map:string,name:string)=>void;
   onGuestName?:()=>Promise<string|null>;
   private guestName?:{steamId:string;name:string};
-  constructor(private root:HTMLElement,private ranked=true,private mode:'ckz'|'vnl'='ckz'){
+  constructor(private root:HTMLElement,private ranked=true,private mode:'ckz'|'vnl'='ckz',private physics='ckz-browser-2026-10-12-takeoff'){
     try{this.queue=parseQueue(localStorage.getItem(queueKey));}catch{}
     try{const saved=JSON.parse(sessionStorage.getItem('ckz-guest-name-v1')??'null');if(saved&&typeof saved.name==='string'&&saved.name.trim()&&Array.from(saved.name).length<=24&&/^guest_[a-f0-9]{32}$/.test(saved.steamId))this.guestName=saved;}catch{}
     for(const id of ['leaderboard-course'])this.select(id).addEventListener('change',()=>{this.offset=0;this.requestedCourse=undefined;void this.refresh();});
@@ -41,10 +41,9 @@ export class Leaderboards {
     this.root.querySelector('[data-page="leaderboards"]')!.addEventListener('click',()=>{void this.refreshSession();void this.refresh();});
     if(staticDemo){
       this.sessionReady=Promise.resolve();this.account();
-      this.text('leaderboard-status','Online leaderboards are unavailable in this demo. Personal bests and your last run replay stay in this browser.');
+      this.text('leaderboard-status','Local Pro / TP personal bests · saved in this browser.');
       this.root.querySelector<HTMLButtonElement>('#leaderboard-prev')!.disabled=true;
       this.root.querySelector<HTMLButtonElement>('#leaderboard-next')!.disabled=true;
-      this.root.querySelector<HTMLButtonElement>('#leaderboard-refresh')!.disabled=true;
       return;
     }
     window.addEventListener('online',()=>{void this.refreshSession().then(()=>this.flush());void this.refresh();});
@@ -81,11 +80,11 @@ export class Leaderboards {
     }catch(e){this.account((e as Error).message);}
   }
   private async loadCatalog(){try{this.catalog=(await this.request<{maps:CatalogMap[]}>('/api/catalog')).maps;this.courses();void this.refresh();}catch(e){this.text('leaderboard-status',(e as Error).message);this.text('leaderboard-own','');this.root.querySelector<HTMLButtonElement>('#leaderboard-prev')!.disabled=true;this.root.querySelector<HTMLButtonElement>('#leaderboard-next')!.disabled=true;}}
-  setCourses(courses:{key:string;name:string}[]){const current=this.catalog.find(m=>m.id===selectedMap.id);if(current)current.courses=courses;this.courses();}
+  setCourses(courses:{key:string;name:string}[]){const current=this.catalog.find(m=>m.id===selectedMap.id);if(current)current.courses=courses;this.courses();if(staticDemo)void this.refresh();}
   mapChanged(){this.generation++;this.offset=0;this.requestedCourse=undefined;this.root.querySelector('#leaderboard-rows')!.replaceChildren();this.text('leaderboard-rank','—');this.text('leaderboard-own','');this.text('leaderboard-status','Loading map…');this.select('leaderboard-course').replaceChildren();}
   private courses(){const select=this.select('leaderboard-course'),prior=this.requestedCourse??select.value;select.replaceChildren();for(const c of this.catalog.find(m=>m.id===selectedMap.id)?.courses??[]){const option=document.createElement('option');option.value=c.key;option.textContent=c.name;select.append(option);}if(Array.from(select.options).some(o=>o.value===prior))select.value=prior;}
   async refresh(){
-    if(staticDemo)return;
+    if(staticDemo){this.refreshLocal();return;}
     const course=this.select('leaderboard-course').value;if(!course)return;
     const generation=++this.generation;this.text('leaderboard-status','Loading records…');this.text('leaderboard-rank','—');this.text('leaderboard-own','');
     try{
@@ -105,8 +104,20 @@ export class Leaderboards {
     }catch(e){if(generation===this.generation){this.root.querySelector('#leaderboard-rows')!.replaceChildren();this.text('leaderboard-status',(e as Error).message);this.text('leaderboard-own','');this.root.querySelector<HTMLButtonElement>('#leaderboard-prev')!.disabled=true;this.root.querySelector<HTMLButtonElement>('#leaderboard-next')!.disabled=true;}}
   }
   private saveQueue(){try{localStorage.setItem(queueKey,JSON.stringify(this.queue));}catch{}}
+  private refreshLocal(){
+    const course=this.select('leaderboard-course').value,body=this.root.querySelector('#leaderboard-rows')!;body.replaceChildren();
+    let saved=null;try{saved=readPersonalBest(localStorage,this.physics,selectedMap.id,course,this.category);}catch{}
+    this.text('leaderboard-status',`Local ${this.category} personal best · this browser only`);
+    this.text('leaderboard-rank',saved?'#1':'—');this.text('leaderboard-own',saved?`Your ${this.category} PB · ${formatRunTime(saved.time)} · ${saved.teleports} TP`:`No ${this.category} finish saved for this course yet.`);
+    if(saved){const tr=document.createElement('tr');tr.className='own-record';for(const value of ['1','You · local',formatRunTime(saved.time),String(saved.teleports),'—']){const td=document.createElement('td');td.textContent=value;tr.append(td);}body.append(tr);}
+    this.root.querySelector<HTMLButtonElement>('#leaderboard-prev')!.disabled=true;this.root.querySelector<HTMLButtonElement>('#leaderboard-next')!.disabled=true;
+  }
   async completed(result:RunResult,status:(message:string)=>void,replay?:Replay){
-    if(staticDemo){status('Saved locally · online leaderboards are unavailable in this demo.');return;}
+    if(staticDemo){
+      let saved=null;try{saved=readPersonalBest(localStorage,this.physics,selectedMap.id,result.course,result.category);}catch{}
+      status(result.practice?'Practice finish · personal best unchanged.':saved?.time===result.time?`${result.category} personal best saved in this browser.`:saved?`${result.category} finish · your personal best is unchanged.`:'Finish complete · browser storage unavailable; personal best could not be saved.');
+      void this.refresh();return;
+    }
     const completedMap=selectedMap.id;
     await this.sessionReady;
     const user=this.session.user;let nameWarning='';
